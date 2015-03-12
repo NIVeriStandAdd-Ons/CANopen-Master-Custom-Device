@@ -1,0 +1,1025 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CustomDevice xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Custom Device.xsd">
+	<XSDVersion Major="2010" Minor="0" Fix="0" Build="0" />
+	<AddMenu>
+		<eng>CANopen Master</eng>
+		<loc>CANopen Master</loc>
+	</AddMenu>
+	<Version>1.0</Version>
+	<Type>Inline HW Interface</Type>
+	<MaxOccurrence>2474</MaxOccurrence>
+	<MainPageGUID>ee2eec27-2ab7-4da4-b26b-0d826264739c</MainPageGUID>
+	<InitializationVI>
+		<Type>Action</Type>
+		<Item2Launch>
+			<Type>To Common Doc Dir</Type>
+			<Path>Custom Devices\CANOpen Addon\CANOpen Addon Configuration.llb\CANOpen Addon Initialization VI.vi</Path>
+		</Item2Launch>
+	</InitializationVI>
+	<CustomDeviceVI>
+		<SourceDistribution>
+			<Source>
+				<SupportedTarget>PharlapWindows</SupportedTarget>
+				<Source>
+					<Type>To Common Doc Dir</Type>
+					<Path>Custom Devices\CANOpen Addon\CANOpen Addon Engine.llb\CANOpen Addon RT Driver VI.vi</Path>
+				</Source>
+				<RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\CANOpen Addon\CANOpen Addon Engine.llb\CANOpen Addon RT Driver VI.vi</RealTimeSystemDestination>
+			</Source>
+			<Source>
+				<SupportedTarget>VxWorks</SupportedTarget>
+				<Source>
+					<Type>To Common Doc Dir</Type>
+					<Path>Custom Devices\CANOpen Addon\c\CANOpen Addon Engine VxWorks.llb\CANOpen Addon RT Driver VI.vi</Path>
+				</Source>
+				<RealTimeSystemDestination>c:\ni-rt\NIVeriStand\Custom Devices\CANOpen Addon\CANOpen Addon Engine VxWorks.llb\CANOpen Addon RT Driver VI.vi</RealTimeSystemDestination>
+			</Source>
+		</SourceDistribution>
+	</CustomDeviceVI>
+	<Dependencies />
+	<Pages>
+		<Page>
+			<Name>
+				<eng>CANOpen Addon</eng>
+				<loc>CANOpen Addon</loc>
+			</Name>
+			<GUID>ee2eec27-2ab7-4da4-b26b-0d826264739c</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\ni-can ports.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\CANOpen Addon\CANOpen Addon Configuration.llb\CANOpen Addon Main Page.vi</Path>
+			</Item2Launch>
+			<RunTimeMenu>
+				<MenuItem>
+					<GUID>33398edb-ff6b-43ad-b42c-50e0a0d68fac</GUID>
+					<Type>Action</Type>
+					<Name>
+						<eng>Add Device Node</eng>
+						<loc>Add Device Node</loc>
+					</Name>
+					<Item2Launch>
+						<Type>To Common Doc Dir</Type>
+						<Path>Custom Devices\CANOpen Addon\CANOpen Addon Configuration.llb\CANOpen Add Device Node.vi</Path>
+					</Item2Launch>
+				</MenuItem>
+				<MenuItem>
+					<GUID>7755077A-1485-13A6-5674A23FB86277FF</GUID>
+					<Type>Separator</Type>
+					<Name>
+						<eng>.</eng>
+						<loc>.</loc>
+					</Name>
+					<Item2Launch>
+						<Type>Absolute</Type>
+						<Path>.</Path>
+					</Item2Launch>
+				</MenuItem>
+				<MenuItem>
+					<GUID>35f197b6-2b0c-4fe1-b5f5-c098833f16a7</GUID>
+					<Type>Action</Type>
+					<Name>
+						<eng>Disable</eng>
+						<loc>Disable</loc>
+					</Name>
+					<Item2Launch>
+						<Type>To Common Doc Dir</Type>
+						<Path>Custom Devices\CANOpen Addon\CANOpen Addon Configuration.llb\CANOpen EnableDisable Main Page.vi</Path>
+					</Item2Launch>
+				</MenuItem>
+				<MenuItem>
+					<GUID>7755077A-1485-13A6-5674A23FB86277FF</GUID>
+					<Type>Separator</Type>
+					<Name>
+						<eng>.</eng>
+						<loc>.</loc>
+					</Name>
+					<Item2Launch>
+						<Type>Absolute</Type>
+						<Path>.</Path>
+					</Item2Launch>
+				</MenuItem>
+				<MenuItem>
+					<GUID>03D3BE0A-1485-13A6-563AEB9BF271825A</GUID>
+					<Type>VI</Type>
+					<MinNrOfChilds>1</MinNrOfChilds>
+					<Name>
+						<eng>Delete Multiple Items</eng>
+						<loc>Delete Multiple Items</loc>
+					</Name>
+					<Item2Launch>
+						<Type>Absolute</Type>
+						<Path>Dialogs\Delete Multiple Items.vi</Path>
+					</Item2Launch>
+				</MenuItem>
+			</RunTimeMenu>
+			<ButtonList>
+				<Button>
+					<ID>Add Device Node</ID>
+					<Glyph>
+						<Type>To Application Data Dir</Type>
+						<Path>System Explorer\Glyphs\channel.png</Path>
+					</Glyph>
+					<Type>Action</Type>
+					<ReferencedGUID>33398edb-ff6b-43ad-b42c-50e0a0d68fac</ReferencedGUID>
+					<ButtonText>
+						<eng>Add Node</eng>
+						<loc>Add Node</loc>
+					</ButtonText>
+					<Caption>
+						<eng>Add Node</eng>
+						<loc>Add Node</loc>
+					</Caption>
+					<TipStrip>
+						<eng>Add Node</eng>
+						<loc>Add Node</loc>
+					</TipStrip>
+					<Documentation>
+						<eng />
+						<loc />
+					</Documentation>
+				</Button>
+			</ButtonList>
+		</Page>
+		<Page>
+			<Name>
+				<eng>CANOpen Addon</eng>
+				<loc>CANOpen Addon</loc>
+			</Name>
+			<GUID>b0754a10-6e57-4997-b995-895c0828dacd</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\NI-XNET Port Disabled.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\CANOpen Addon\CANOpen Addon Configuration.llb\CANOpen Addon Main Page.vi</Path>
+			</Item2Launch>
+			<RunTimeMenu>
+				<MenuItem>
+					<GUID>33398edb-ff6b-43ad-b42c-50e0a0d68fac</GUID>
+					<Type>Action</Type>
+					<Name>
+						<eng>Add Device Node</eng>
+						<loc>Add Device Node</loc>
+					</Name>
+					<Item2Launch>
+						<Type>To Common Doc Dir</Type>
+						<Path>Custom Devices\CANOpen Addon\CANOpen Addon Configuration.llb\CANOpen Add Device Node.vi</Path>
+					</Item2Launch>
+				</MenuItem>
+				<MenuItem>
+					<GUID>7755077A-1485-13A6-5674A23FB86277FF</GUID>
+					<Type>Separator</Type>
+					<Name>
+						<eng>.</eng>
+						<loc>.</loc>
+					</Name>
+					<Item2Launch>
+						<Type>Absolute</Type>
+						<Path>.</Path>
+					</Item2Launch>
+				</MenuItem>
+				<MenuItem>
+					<GUID>35f197b6-2b0c-4fe1-b5f5-c098833f16a7</GUID>
+					<Type>Action</Type>
+					<Name>
+						<eng>Enable</eng>
+						<loc>Enable</loc>
+					</Name>
+					<Item2Launch>
+						<Type>To Common Doc Dir</Type>
+						<Path>Custom Devices\CANOpen Addon\CANOpen Addon Configuration.llb\CANOpen EnableDisable Main Page.vi</Path>
+					</Item2Launch>
+				</MenuItem>
+				<MenuItem>
+					<GUID>7755077A-1485-13A6-5674A23FB86277FF</GUID>
+					<Type>Separator</Type>
+					<Name>
+						<eng>.</eng>
+						<loc>.</loc>
+					</Name>
+					<Item2Launch>
+						<Type>Absolute</Type>
+						<Path>.</Path>
+					</Item2Launch>
+				</MenuItem>
+				<MenuItem>
+					<GUID>03D3BE0A-1485-13A6-563AEB9BF271825A</GUID>
+					<Type>VI</Type>
+					<MinNrOfChilds>1</MinNrOfChilds>
+					<Name>
+						<eng>Delete Multiple Items</eng>
+						<loc>Delete Multiple Items</loc>
+					</Name>
+					<Item2Launch>
+						<Type>Absolute</Type>
+						<Path>Dialogs\Delete Multiple Items.vi</Path>
+					</Item2Launch>
+				</MenuItem>
+			</RunTimeMenu>
+			<ButtonList>
+				<Button>
+					<ID>Add Device Node</ID>
+					<Glyph>
+						<Type>To Application Data Dir</Type>
+						<Path>System Explorer\Glyphs\channel.png</Path>
+					</Glyph>
+					<Type>Action</Type>
+					<ReferencedGUID>33398edb-ff6b-43ad-b42c-50e0a0d68fac</ReferencedGUID>
+					<ButtonText>
+						<eng>Add Node</eng>
+						<loc>Add Node</loc>
+					</ButtonText>
+					<Caption>
+						<eng>Add Node</eng>
+						<loc>Add Node</loc>
+					</Caption>
+					<TipStrip>
+						<eng>Add Node</eng>
+						<loc>Add Node</loc>
+					</TipStrip>
+					<Documentation>
+						<eng />
+						<loc />
+					</Documentation>
+				</Button>
+			</ButtonList>
+		</Page>
+		<Page>
+			<Name>
+				<eng>CANOpen Device Node</eng>
+				<loc>CANOpen Device Node</loc>
+			</Name>
+			<GUID>30ee7416-8e02-4aa2-8b9c-c256d8ed97d5</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\scxi module.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\CANOpen Addon\CANOpen Addon Configuration.llb\CANOpen Device Node.vi</Path>
+			</Item2Launch>
+			<RunTimeMenu>
+				<MenuItem>
+					<GUID>c1cabacc-3d01-49d5-b055-4ef04d206838</GUID>
+					<Type>Action</Type>
+					<Name>
+						<eng>Duplicate Device Node</eng>
+						<loc>Duplicate Device Node</loc>
+					</Name>
+					<Item2Launch>
+						<Type>To Common Doc Dir</Type>
+						<Path>Custom Devices\CANOpen Addon\CANOpen Addon Configuration.llb\CANOpen Duplicate Device Node.vi</Path>
+					</Item2Launch>
+				</MenuItem>
+				<MenuItem>
+					<GUID>870003e8-09bd-4a3b-a7ca-f5c9f1d16aa4</GUID>
+					<Type>Action</Type>
+					<Name>
+						<eng>Refresh Device Node</eng>
+						<loc>Refresh Device Node</loc>
+					</Name>
+					<Item2Launch>
+						<Type>To Common Doc Dir</Type>
+						<Path>Custom Devices\CANOpen Addon\CANOpen Addon Configuration.llb\CANOpen Refresh Device Node.vi</Path>
+					</Item2Launch>
+				</MenuItem>
+				<MenuItem>
+					<GUID>7755077A-1485-13A6-5674A23FB86277FF</GUID>
+					<Type>Separator</Type>
+					<Name>
+						<eng>.</eng>
+						<loc>.</loc>
+					</Name>
+					<Item2Launch>
+						<Type>Absolute</Type>
+						<Path>.</Path>
+					</Item2Launch>
+				</MenuItem>
+				<MenuItem>
+					<GUID>03D3BE0A-1485-13A6-563AEB9BF271825A</GUID>
+					<Type>VI</Type>
+					<MinNrOfChilds>1</MinNrOfChilds>
+					<Name>
+						<eng>Delete Multiple Items</eng>
+						<loc>Delete Multiple Items</loc>
+					</Name>
+					<Item2Launch>
+						<Type>Absolute</Type>
+						<Path>Dialogs\Delete Multiple Items.vi</Path>
+					</Item2Launch>
+				</MenuItem>
+			</RunTimeMenu>
+			<ButtonList>
+				<Button>
+					<ID>Duplicate Device Node</ID>
+					<Glyph>
+						<Type>To Application Data Dir</Type>
+						<Path>System Explorer\Glyphs\EditCopy.png</Path>
+					</Glyph>
+					<Type>Action</Type>
+					<ReferencedGUID>c1cabacc-3d01-49d5-b055-4ef04d206838</ReferencedGUID>
+					<ButtonText>
+						<eng>Duplicate Node</eng>
+						<loc>Duplicate Node</loc>
+					</ButtonText>
+					<Caption>
+						<eng>Duplicate Node</eng>
+						<loc>Duplicate Node</loc>
+					</Caption>
+					<TipStrip>
+						<eng>Duplicate Node</eng>
+						<loc>Duplicate Node</loc>
+					</TipStrip>
+					<Documentation>
+						<eng />
+						<loc />
+					</Documentation>
+				</Button>
+				<Button>
+					<ID>Refresh Device Node</ID>
+					<Glyph>
+						<Type>To Application Data Dir</Type>
+						<Path>System Explorer\Glyphs\ReloadModel.png</Path>
+					</Glyph>
+					<Type>Action</Type>
+					<ReferencedGUID>870003e8-09bd-4a3b-a7ca-f5c9f1d16aa4</ReferencedGUID>
+					<ButtonText>
+						<eng>Refresh Node</eng>
+						<loc>Refresh Node</loc>
+					</ButtonText>
+					<Caption>
+						<eng>Refresh Node</eng>
+						<loc>Refresh Node</loc>
+					</Caption>
+					<TipStrip>
+						<eng>Refresh Node</eng>
+						<loc>Refresh Node</loc>
+					</TipStrip>
+					<Documentation>
+						<eng />
+						<loc />
+					</Documentation>
+				</Button>
+			</ButtonList>
+		</Page>
+		<Page>
+			<Name>
+				<eng>CANOpen SDOs main</eng>
+				<loc>CANOpen SDOs main</loc>
+			</Name>
+			<DeleteProtection>true</DeleteProtection>
+			<GUID>b40cd152-95d7-469e-822f-e3172d1a480a</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\configuration_daq.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\CANOpen Addon\CANOpen Addon Configuration.llb\CANOpen SDOs.vi</Path>
+			</Item2Launch>
+		</Page>
+		<Page>
+			<Name>
+				<eng>CANOpen SDOs - Startup</eng>
+				<loc>CANOpen SDOs - Startup</loc>
+			</Name>
+			<DeleteProtection>true</DeleteProtection>
+			<GUID>4ac413d5-b28b-4132-8469-846c133003cb</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\configuration_daq.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\CANOpen Addon\CANOpen Addon Configuration.llb\CANOpen SDOs - startup.vi</Path>
+			</Item2Launch>
+			<RunTimeMenu>
+				<MenuItem>
+					<GUID>1cf17f76-dd6b-43a3-9629-5f3997969536</GUID>
+					<Type>Action</Type>
+					<Name>
+						<eng>Edit SDOs - Startup</eng>
+						<loc>Edit SDOs - Startup</loc>
+					</Name>
+					<Item2Launch>
+						<Type>To Common Doc Dir</Type>
+						<Path>Custom Devices\CANOpen Addon\CANOpen Addon Configuration.llb\CANOpen Edit SDOs.vi</Path>
+					</Item2Launch>
+				</MenuItem>
+			</RunTimeMenu>
+			<ButtonList>
+				<Button>
+					<ID>Edit SDOs - startup</ID>
+					<Glyph>
+						<Type>To Application Data Dir</Type>
+						<Path>System Explorer\Glyphs\editopen.png</Path>
+					</Glyph>
+					<Type>Action</Type>
+					<ReferencedGUID>1cf17f76-dd6b-43a3-9629-5f3997969536</ReferencedGUID>
+					<ButtonText>
+						<eng>Edit SDOs - startup</eng>
+						<loc>Edit SDOs - startup</loc>
+					</ButtonText>
+					<Caption>
+						<eng>Edit SDOs - startup</eng>
+						<loc>Edit SDOs - startup</loc>
+					</Caption>
+					<TipStrip>
+						<eng>Edit SDOs - startup</eng>
+						<loc>Edit SDOs - startup</loc>
+					</TipStrip>
+					<Documentation>
+						<eng />
+						<loc />
+					</Documentation>
+				</Button>
+			</ButtonList>
+		</Page>
+		<Page>
+			<Name>
+				<eng>CANOpen SDOs - List</eng>
+				<loc>CANOpen SDOs - List</loc>
+			</Name>
+			<DeleteProtection>true</DeleteProtection>
+			<GUID>4009128c-3f61-49ec-a349-cb63a112dd75</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\configuration_daq.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\CANOpen Addon\CANOpen Addon Configuration.llb\CANOpen SDOs - List.vi</Path>
+			</Item2Launch>
+			<RunTimeMenu>
+				<MenuItem>
+					<GUID>405c1b59-129e-4e5e-94a9-a55b011f562b</GUID>
+					<Type>Action</Type>
+					<Name>
+						<eng>Edit SDOs - List</eng>
+						<loc>Edit SDOs - List</loc>
+					</Name>
+					<Item2Launch>
+						<Type>To Common Doc Dir</Type>
+						<Path>Custom Devices\CANOpen Addon\CANOpen Addon Configuration.llb\CANOpen Edit SDOs - List.vi</Path>
+					</Item2Launch>
+				</MenuItem>
+			</RunTimeMenu>
+			<ButtonList>
+				<Button>
+					<ID>Edit SDOs - List</ID>
+					<Glyph>
+						<Type>To Application Data Dir</Type>
+						<Path>System Explorer\Glyphs\editopen.png</Path>
+					</Glyph>
+					<Type>Action</Type>
+					<ReferencedGUID>405c1b59-129e-4e5e-94a9-a55b011f562b</ReferencedGUID>
+					<ButtonText>
+						<eng>Edit SDOs - List</eng>
+						<loc>Edit SDOs - List</loc>
+					</ButtonText>
+					<Caption>
+						<eng>Edit SDOs - List</eng>
+						<loc>Edit SDOs - List</loc>
+					</Caption>
+					<TipStrip>
+						<eng>Edit SDOs - List</eng>
+						<loc>Edit SDOs - List</loc>
+					</TipStrip>
+					<Documentation>
+						<eng />
+						<loc />
+					</Documentation>
+				</Button>
+			</ButtonList>
+		</Page>
+		<Page>
+			<Name>
+				<eng>CANOpen RPDOs</eng>
+				<loc>CANOpen RPDOs</loc>
+			</Name>
+			<DeleteProtection>true</DeleteProtection>
+			<GUID>a6766e6a-de04-4fdb-a423-a2081741c0e8</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\NI-XNET Incoming.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\CANOpen Addon\CANOpen Addon Configuration.llb\CANOpen RPDOs.vi</Path>
+			</Item2Launch>
+			<RunTimeMenu>
+				<MenuItem>
+					<GUID>28e29660-92b3-44b9-a0a1-97cd359da2d3</GUID>
+					<Type>Action</Type>
+					<Name>
+						<eng>Add RPDO</eng>
+						<loc>Add RPDO</loc>
+					</Name>
+					<Item2Launch>
+						<Type>To Common Doc Dir</Type>
+						<Path>Custom Devices\CANOpen Addon\CANOpen Addon Configuration.llb\CANOpen Add RPDO.vi</Path>
+					</Item2Launch>
+				</MenuItem>
+				<MenuItem>
+					<GUID>7755077A-1485-13A6-5674A23FB86277FF</GUID>
+					<Type>Separator</Type>
+					<Name>
+						<eng>.</eng>
+						<loc>.</loc>
+					</Name>
+					<Item2Launch>
+						<Type>Absolute</Type>
+						<Path>.</Path>
+					</Item2Launch>
+				</MenuItem>
+				<MenuItem>
+					<GUID>03D3BE0A-1485-13A6-563AEB9BF271825A</GUID>
+					<Type>VI</Type>
+					<MinNrOfChilds>1</MinNrOfChilds>
+					<Name>
+						<eng>Delete Multiple Items</eng>
+						<loc>Delete Multiple Items</loc>
+					</Name>
+					<Item2Launch>
+						<Type>Absolute</Type>
+						<Path>Dialogs\Delete Multiple Items.vi</Path>
+					</Item2Launch>
+				</MenuItem>
+			</RunTimeMenu>
+			<ButtonList>
+				<Button>
+					<ID>Add RPDO</ID>
+					<Glyph>
+						<Type>To Application Data Dir</Type>
+						<Path>System Explorer\Glyphs\channel.png</Path>
+					</Glyph>
+					<Type>Action</Type>
+					<ReferencedGUID>28e29660-92b3-44b9-a0a1-97cd359da2d3</ReferencedGUID>
+					<ButtonText>
+						<eng>Add RPDO</eng>
+						<loc>Add RPDO</loc>
+					</ButtonText>
+					<Caption>
+						<eng>Add RPDO</eng>
+						<loc>Add RPDO</loc>
+					</Caption>
+					<TipStrip>
+						<eng>Add RPDO</eng>
+						<loc>Add RPDO</loc>
+					</TipStrip>
+					<Documentation>
+						<eng />
+						<loc />
+					</Documentation>
+				</Button>
+			</ButtonList>
+		</Page>
+		<Page>
+			<Name>
+				<eng>CANOpen TPDOs</eng>
+				<loc>CANOpen TPDOs</loc>
+			</Name>
+			<DeleteProtection>true</DeleteProtection>
+			<GUID>058a6a92-3f0d-49e3-a3a0-9535fbe5a49e</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\NI-XNET Outgoing.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\CANOpen Addon\CANOpen Addon Configuration.llb\CANOpen TPDOs.vi</Path>
+			</Item2Launch>
+			<RunTimeMenu>
+				<MenuItem>
+					<GUID>5546cecb-dffa-420d-be45-0b533e545aa0</GUID>
+					<Type>Action</Type>
+					<Name>
+						<eng>Add TPDO</eng>
+						<loc>Add TPDO</loc>
+					</Name>
+					<Item2Launch>
+						<Type>To Common Doc Dir</Type>
+						<Path>Custom Devices\CANOpen Addon\CANOpen Addon Configuration.llb\CANOpen Add TPDO.vi</Path>
+					</Item2Launch>
+				</MenuItem>
+				<MenuItem>
+					<GUID>7755077A-1485-13A6-5674A23FB86277FF</GUID>
+					<Type>Separator</Type>
+					<Name>
+						<eng>.</eng>
+						<loc>.</loc>
+					</Name>
+					<Item2Launch>
+						<Type>Absolute</Type>
+						<Path>.</Path>
+					</Item2Launch>
+				</MenuItem>
+				<MenuItem>
+					<GUID>03D3BE0A-1485-13A6-563AEB9BF271825A</GUID>
+					<Type>VI</Type>
+					<MinNrOfChilds>1</MinNrOfChilds>
+					<Name>
+						<eng>Delete Multiple Items</eng>
+						<loc>Delete Multiple Items</loc>
+					</Name>
+					<Item2Launch>
+						<Type>Absolute</Type>
+						<Path>Dialogs\Delete Multiple Items.vi</Path>
+					</Item2Launch>
+				</MenuItem>
+			</RunTimeMenu>
+			<ButtonList>
+				<Button>
+					<ID>Add RPDO</ID>
+					<Glyph>
+						<Type>To Application Data Dir</Type>
+						<Path>System Explorer\Glyphs\channel.png</Path>
+					</Glyph>
+					<Type>Action</Type>
+					<ReferencedGUID>5546cecb-dffa-420d-be45-0b533e545aa0</ReferencedGUID>
+					<ButtonText>
+						<eng>Add TPDO</eng>
+						<loc>Add TPDO</loc>
+					</ButtonText>
+					<Caption>
+						<eng>Add TPDO</eng>
+						<loc>Add TPDO</loc>
+					</Caption>
+					<TipStrip>
+						<eng>Add TPDO</eng>
+						<loc>Add TPDO</loc>
+					</TipStrip>
+					<Documentation>
+						<eng />
+						<loc />
+					</Documentation>
+				</Button>
+			</ButtonList>
+		</Page>
+		<Page>
+			<Name>
+				<eng>CANOpen PDO</eng>
+				<loc>CANOpen PDO</loc>
+			</Name>
+			<GUID>0e998ef5-190c-48b6-92bd-d5f6d14f96b8</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\NI-XNET SignalFrame.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\CANOpen Addon\CANOpen Addon Configuration.llb\CANOpen PDO.vi</Path>
+			</Item2Launch>
+			<RunTimeMenu>
+				<MenuItem>
+					<GUID>7b4e6a30-e786-43a5-b9e9-e9050dd4cb60</GUID>
+					<Type>Action</Type>
+					<Name>
+						<eng>Edit PDO</eng>
+						<loc>Edit PDO</loc>
+					</Name>
+					<Item2Launch>
+						<Type>To Common Doc Dir</Type>
+						<Path>Custom Devices\CANOpen Addon\CANOpen Addon Configuration.llb\CANOpen Edit PDO.vi</Path>
+					</Item2Launch>
+				</MenuItem>
+			</RunTimeMenu>
+			<ButtonList>
+				<Button>
+					<ID>Edit PDO</ID>
+					<Glyph>
+						<Type>To Application Data Dir</Type>
+						<Path>System Explorer\Glyphs\editopen.png</Path>
+					</Glyph>
+					<Type>Action</Type>
+					<ReferencedGUID>7b4e6a30-e786-43a5-b9e9-e9050dd4cb60</ReferencedGUID>
+					<ButtonText>
+						<eng>Edit PDO</eng>
+						<loc>Edit PDO</loc>
+					</ButtonText>
+					<Caption>
+						<eng>Edit PDO</eng>
+						<loc>Edit PDO</loc>
+					</Caption>
+					<TipStrip>
+						<eng>Edit PDO</eng>
+						<loc>Edit PDO</loc>
+					</TipStrip>
+					<Documentation>
+						<eng />
+						<loc />
+					</Documentation>
+				</Button>
+			</ButtonList>
+		</Page>
+		<Page>
+			<Name>
+				<eng>CANOpen Bus Commands</eng>
+				<loc>CANOpen Bus Commands</loc>
+			</Name>
+			<DisallowRenaming>true</DisallowRenaming>
+			<DeleteProtection>true</DeleteProtection>
+			<GUID>d746360c-3e97-4e77-b411-872b8f57c1d4</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\event-based.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\CANOpen Addon\CANOpen Addon Configuration.llb\CANOpen Bus Commands.vi</Path>
+			</Item2Launch>
+		</Page>
+		<Page>
+			<Name>
+				<eng>CANOpen Send Dynamic SDOs Request</eng>
+				<loc>CANOpen Send Dynamic SDOs Request</loc>
+			</Name>
+			<DisallowRenaming>true</DisallowRenaming>
+			<DeleteProtection>true</DeleteProtection>
+			<GUID>51538351-12DA-4E79-8082-0EFA430E7DD8</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\default fpga channel.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\CANOpen Addon\CANOpen Addon Configuration.llb\CANOpen SDOs - Receive Send.vi</Path>
+			</Item2Launch>
+		</Page>
+		<Page>
+			<Name>
+				<eng>CANOpen Send Dynamic SDOs Response</eng>
+				<loc>CANOpen Send Dynamic SDOs Response</loc>
+			</Name>
+			<DisallowRenaming>true</DisallowRenaming>
+			<DeleteProtection>true</DeleteProtection>
+			<GUID>4F260029-3D47-4DD5-AC89-DDD2EA29783B</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\default fpga channel.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\CANOpen Addon\CANOpen Addon Configuration.llb\CANOpen SDOs - Receive Send.vi</Path>
+			</Item2Launch>
+		</Page>
+		<Page>
+			<Name>
+				<eng>CANOpen Send List SDOs</eng>
+				<loc>CANOpen Send List SDOs</loc>
+			</Name>
+			<DisallowRenaming>true</DisallowRenaming>
+			<DeleteProtection>true</DeleteProtection>
+			<GUID>aab1a3c1-d588-4927-aa76-77b77a44aad7</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\default fpga channel.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\CANOpen Addon\CANOpen Addon Configuration.llb\CANOpen SDOs - Receive Send.vi</Path>
+			</Item2Launch>
+		</Page>
+		<Page>
+			<Name>
+				<eng>CANOpen SDOs - Dynamic</eng>
+				<loc>CANOpen SDOs - Dynamic</loc>
+			</Name>
+			<DisallowRenaming>true</DisallowRenaming>
+			<DeleteProtection>true</DeleteProtection>
+			<GUID>498D62A3-F405-4B08-B47B-C5A393B4DBAF</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\configuration_daq.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\CANOpen Addon\CANOpen Addon Configuration.llb\CANOpen SDOs - Dynamic.vi</Path>
+			</Item2Launch>
+		</Page>
+		<Page>
+			<Name>
+				<eng>CANOpen SDOs - Dynamic Subsection</eng>
+				<loc>CANOpen SDOs - Dynamic Subsection</loc>
+			</Name>
+			<DisallowRenaming>true</DisallowRenaming>
+			<DeleteProtection>true</DeleteProtection>
+			<GUID>C0059D1D-3ED5-454F-9A27-1F2434054ECF</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\configuration_daq.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\CANOpen Addon\CANOpen Addon Configuration.llb\CANOpen SDOs - Dynamic subsection.vi</Path>
+			</Item2Launch>
+		</Page>
+		<Page>
+			<Name>
+				<eng>CANOpen SDOs - Dynamic Subsection Write Request</eng>
+				<loc>CANOpen SDOs - Dynamic Subsection Write Request</loc>
+			</Name>
+			<DisallowRenaming>true</DisallowRenaming>
+			<DeleteProtection>true</DeleteProtection>
+			<GUID>3097BF4C-8B3B-4279-9609-A1E06BBA9A61</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\configuration_daq.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\CANOpen Addon\CANOpen Addon Configuration.llb\CANOpen SDOs - Dynamic subsection.vi</Path>
+			</Item2Launch>
+		</Page>
+		<Page>
+			<Name>
+				<eng>CANOpen SDOs - Dynamic Subsection Write Response</eng>
+				<loc>CANOpen SDOs - Dynamic Subsection Write Response</loc>
+			</Name>
+			<DisallowRenaming>true</DisallowRenaming>
+			<DeleteProtection>true</DeleteProtection>
+			<GUID>B538C8C3-1320-40E6-85C4-5CBF861E5FF7</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\configuration_daq.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\CANOpen Addon\CANOpen Addon Configuration.llb\CANOpen SDOs - Dynamic subsection.vi</Path>
+			</Item2Launch>
+		</Page>
+		<Page>
+			<Name>
+				<eng>CANOpen SDOs - Dynamic Subsection Read Request</eng>
+				<loc>CANOpen SDOs - Dynamic Subsection Read Request</loc>
+			</Name>
+			<DisallowRenaming>true</DisallowRenaming>
+			<DeleteProtection>true</DeleteProtection>
+			<GUID>84B55C87-CCAB-4A59-989A-F3927336083A</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\configuration_daq.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\CANOpen Addon\CANOpen Addon Configuration.llb\CANOpen SDOs - Dynamic subsection.vi</Path>
+			</Item2Launch>
+		</Page>
+		<Page>
+			<Name>
+				<eng>CANOpen SDOs - Dynamic Subsection Read Response</eng>
+				<loc>CANOpen SDOs - Dynamic Subsection Read Response</loc>
+			</Name>
+			<DisallowRenaming>true</DisallowRenaming>
+			<DeleteProtection>true</DeleteProtection>
+			<GUID>11BBA49E-62B9-4BE5-94B9-DFD78A3C50D4</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\configuration_daq.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\CANOpen Addon\CANOpen Addon Configuration.llb\CANOpen SDOs - Dynamic subsection.vi</Path>
+			</Item2Launch>
+		</Page>
+		<Page>
+			<Name>
+				<eng>CANOpen Receive Dynamic SDOs Request</eng>
+				<loc>CANOpen Receive Dynamic SDOs Request</loc>
+			</Name>
+			<DisallowRenaming>true</DisallowRenaming>
+			<DeleteProtection>true</DeleteProtection>
+			<GUID>96EBA813-65BB-4356-9ACB-EB1E8C7D1BA9</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\default fpga channel.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\CANOpen Addon\CANOpen Addon Configuration.llb\CANOpen SDOs - Receive Send.vi</Path>
+			</Item2Launch>
+		</Page>
+		<Page>
+			<Name>
+				<eng>CANOpen Receive Dynamic SDOs Response</eng>
+				<loc>CANOpen Receive Dynamic SDOs Response</loc>
+			</Name>
+			<DisallowRenaming>true</DisallowRenaming>
+			<DeleteProtection>true</DeleteProtection>
+			<GUID>4437B1E7-4881-413A-A86D-C6CCD713B80B</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\default fpga channel.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\CANOpen Addon\CANOpen Addon Configuration.llb\CANOpen SDOs - Receive Send.vi</Path>
+			</Item2Launch>
+		</Page>
+		<Page>
+			<Name>
+				<eng>CANOpen Receive List SDOs</eng>
+				<loc>CANOpen Receive List SDOs</loc>
+			</Name>
+			<DisallowRenaming>true</DisallowRenaming>
+			<DeleteProtection>true</DeleteProtection>
+			<GUID>2CA7D733-94A4-4949-AD76-6DC6B0B520E8</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\default fpga channel.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\CANOpen Addon\CANOpen Addon Configuration.llb\CANOpen SDOs - Receive Send.vi</Path>
+			</Item2Launch>
+		</Page>
+		<Page>
+			<Name>
+				<eng>CANOpen NMTs</eng>
+				<loc>CANOpen NMTs</loc>
+			</Name>
+			<DisallowRenaming>true</DisallowRenaming>
+			<DeleteProtection>true</DeleteProtection>
+			<GUID>E973F48E-341C-44BD-96D0-0955FA5D4E9C</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\event-based.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\CANOpen Addon\CANOpen Addon Configuration.llb\CANOpen NMTs.vi</Path>
+			</Item2Launch>
+		</Page>
+		<Page>
+			<Name>
+				<eng>CANOpen Send NMTs</eng>
+				<loc>CANOpen Send NMTs</loc>
+			</Name>
+			<DisallowRenaming>true</DisallowRenaming>
+			<DeleteProtection>true</DeleteProtection>
+			<GUID>1344E165-397F-4945-9CF4-5D878AFF51A5</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\default fpga channel.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\CANOpen Addon\CANOpen Addon Configuration.llb\CANOpen NMTs - Receive Send.vi</Path>
+			</Item2Launch>
+		</Page>
+		<Page>
+			<Name>
+				<eng>CANOpen Receive NMTs</eng>
+				<loc>CANOpen Receive NMTs</loc>
+			</Name>
+			<DisallowRenaming>true</DisallowRenaming>
+			<DeleteProtection>true</DeleteProtection>
+			<GUID>B4588A11-20C8-4448-980C-55D7BC0F1605</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\default fpga channel.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\CANOpen Addon\CANOpen Addon Configuration.llb\CANOpen NMTs - Receive Send.vi</Path>
+			</Item2Launch>
+		</Page>
+		<Page>
+			<Name>
+				<eng>CANOpen Channel</eng>
+				<loc>CANOpen Channel</loc>
+			</Name>
+			<GUID>29165bcc-5b74-4ff4-a426-96512b74f616</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\NI-XNET Signal.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\CANOpen Addon\CANOpen Addon Configuration.llb\CANOpen Channel.vi</Path>
+			</Item2Launch>
+		</Page>
+		<Page>
+			<Name>
+				<eng>CANOpen RPDO Channel</eng>
+				<loc>CANOpen RPDO Channel</loc>
+			</Name>
+			<GUID>DE69C061-F71C-4601-910F-EC06EE56C86C</GUID>
+			<Glyph>
+				<Type>To Application Data Dir</Type>
+				<Path>System Explorer\Glyphs\NI-XNET Signal.png</Path>
+			</Glyph>
+			<Item2Launch>
+				<Type>To Common Doc Dir</Type>
+				<Path>Custom Devices\CANOpen Addon\CANOpen Addon Configuration.llb\CANOpen RPDO Channel.vi</Path>
+			</Item2Launch>
+		</Page>
+	</Pages>
+	<CustomXML>
+		<Dummy></Dummy>
+	</CustomXML>
+</CustomDevice>
