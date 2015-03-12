@@ -1,24 +1,24 @@
 ## CANopen-Master-CustomDevice##
 
-**IP Name** is a insert description of IP
+This **CANopen Master Addon** provides the ability to monitor and communicate with CANopen slave devices at CANopen network. Specifically, reading TPDOs and SDOs. Writing SDOs and RPDOs. Also handling network management.
+
+More detailed information about operation is available in *Docs/CANopen master CD readme 2.0.2.rtf*
 
 ### LabVIEW Version ###
 
-Describe the LabVIEW version used to develop this source
+LabVIEW 2013 SP1
 
 ### Built Availability ###
 
-Describe the availability, or lack of availability of built versions of this IP and provide any links needed to go get builds
+Built versions of this device are not available. Users are expected to build anything under Build Specifications in the source's LabVIEW project(s). Pre-built versions are available upon request through NI Field Sales.
 
 ### Quality, Limitations ###
 
-Describe the maturity of the IP. Is this in use worldwide? Is this terrible code that needs lots of updates? Is this a work in progress?
-
-Describe any limitations of the IP.
+IP has been tested by developer. It is currently used by customers.
 
 ### Dependencies ###
 
-Describe any dependencies of the IP
+NI-Industrial Communications for CANopen 1.0.3 or later driver.
 
 ### License ###
 

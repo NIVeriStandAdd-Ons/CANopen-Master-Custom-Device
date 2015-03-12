@@ -1,0 +1,30 @@
+	Device State
+1 - unknown
+0 - bootup
+4 - stopped
+5 - operational
+127 - preoperational
+128 - connection lost
+
+	NMT command
+0 - idle
+1 - start remote node
+2 - stop remote node
+3 - enter pre-operational
+4 - reset node
+5 - reset communication from node side
+6 - reinit communication from NI VS side
+
+	Byte Order
+0 - big-endian, network order
+1 - little-endian
+
+	Data Type
+0 - U8
+1 - U16
+2 - U32
+3 - I8
+4 - I16
+5 - I32
+6 - Single
+

@@ -1,0 +1,2856 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="System definition.xsd">
+	<MD5Checksum />
+	<Version Major="2013" Minor="0" Fix="0" Build="1" />
+	<Content>Definition</Content>
+	<Root Name="CANopen PXI" TypeGUID="03D3BA22-1485-13A6-56BD17DA950CCD00">
+		<Description />
+		<Properties>
+			<Property Name="Name">
+				<String>CANopen PXI</String>
+			</Property>
+			<Property Name="Version">
+				<String>1.0.0.36</String>
+			</Property>
+			<Property Name="Creator">
+				<String />
+			</Property>
+			<Property Name="Creation Date">
+				<Double>3504246652.0172386</Double>
+			</Property>
+		</Properties>
+		<Errors />
+		<TargetSections Name="Targets" TypeGUID="eb379619-68d7-4d81-be90-c0bc511cdc10">
+			<Description />
+			<Properties />
+			<Errors />
+			<Target Name="Controller" TypeGUID="775504BB-1485-13A6-56755DBF2C326980">
+				<Description />
+				<Properties>
+					<Property Name="OS">
+						<String>PharLap</String>
+					</Property>
+					<Property Name="IP Address">
+						<String>10.118.8.211</String>
+					</Property>
+					<Property Name="Control Loop Processor">
+						<I32>-2</I32>
+					</Property>
+					<Property Name="Secondary Control Loop Processor">
+						<I32>-2</I32>
+					</Property>
+					<Property Name="Stream Rate">
+						<I32>1</I32>
+					</Property>
+					<Property Name="DIO Rate">
+						<Double>100</Double>
+					</Property>
+					<Property Name="Streamed Channels">
+						<I32>512</I32>
+					</Property>
+					<Property Name="Filter DAQ Errors">
+						<Boolean>false</Boolean>
+					</Property>
+					<Property Name="Filter Watchdog Errors">
+						<Boolean>false</Boolean>
+					</Property>
+					<Property Name="Engine Rate">
+						<Double>2000</Double>
+					</Property>
+					<Property Name="TL timeout">
+						<Double>120</Double>
+					</Property>
+					<Property Name="daq timeout">
+						<U32>1000</U32>
+					</Property>
+					<Property Name="TL sleep time">
+						<U32>0</U32>
+					</Property>
+					<Property Name="HS Port">
+						<I32>2040</I32>
+					</Property>
+					<Property Name="LS Port">
+						<I32>2050</I32>
+					</Property>
+					<Property Name="HS Port Timeout">
+						<I32>1000</I32>
+					</Property>
+					<Property Name="LS Port Timeout">
+						<I32>1000</I32>
+					</Property>
+					<Property Name="Deployment Group">
+						<I32>0</I32>
+					</Property>
+					<Property Name="Control Rate">
+						<Double>1</Double>
+					</Property>
+					<Property Name="Input Configuration">
+						<U32>0</U32>
+					</Property>
+					<Property Name="ts">
+						<U32>0</U32>
+					</Property>
+					<Property Name="Warmup Time [ms]">
+						<U32>2000</U32>
+					</Property>
+					<Property Name="Data Rate">
+						<Double>15</Double>
+					</Property>
+					<Property Name="FPGAScanInterfaceMode">
+						<U16>1</U16>
+					</Property>
+					<Property Name="Timing Source Settings">
+						<U16>0</U16>
+					</Property>
+				</Properties>
+				<Errors />
+				<Section Name="Hardware" TypeGUID="775504AB-1485-13A6-560018C1F4E3EEE1">
+					<Description />
+					<Properties />
+					<Errors />
+					<Section Name="Chassis" TypeGUID="03D3BACD-1485-13A6-56E99D97B7543BAF">
+						<Description />
+						<Properties>
+							<Property Name="Master type">
+								<U32>1</U32>
+							</Property>
+						</Properties>
+						<Errors />
+						<Section Name="Timing and Sync" TypeGUID="03D3BAED-1485-13A6-56E20B50F6E06D94">
+							<Description />
+							<Properties />
+							<Errors />
+						</Section>
+						<Section Name="DAQ" TypeGUID="77550612-1485-13A6-56570AB5032158E9">
+							<Description />
+							<Properties />
+							<Errors />
+							<Section Name="Waveform Tasks" TypeGUID="1D6B8779-A957-42D1-B074-82153DB7FF44">
+								<Description />
+								<Properties />
+								<Errors />
+							</Section>
+						</Section>
+						<Section Name="FPGA" TypeGUID="03D3B659-1485-13A6-5652D8A07328ECB7">
+							<Description />
+							<Properties />
+							<Errors />
+						</Section>
+						<Section Name="NI-XNET" TypeGUID="6b693e6d-67b1-40b8-8108-4a4cc3147721">
+							<Description />
+							<Properties>
+								<Property Name="CD Status">
+									<U32>2</U32>
+								</Property>
+								<Property Name="Decimation">
+									<I32>1</I32>
+								</Property>
+								<Property Name="Driver VI Exec Mode">
+									<U32>1</U32>
+								</Property>
+							</Properties>
+							<Errors />
+							<Section Name="CAN" TypeGUID="6c5bb91f-0da7-407d-aefc-acbe49c768df">
+								<Description />
+								<Properties />
+								<Errors />
+							</Section>
+							<Section Name="FlexRay" TypeGUID="e33fae90-03f1-4f76-b2f1-6eb8fcac2676">
+								<Description />
+								<Properties />
+								<Errors />
+							</Section>
+							<Section Name="LIN" TypeGUID="c9c30728-42cb-4dc3-b054-b80e7a54e833">
+								<Description />
+								<Properties />
+								<Errors />
+							</Section>
+						</Section>
+						<Section Name="Data Sharing" TypeGUID="d56f3ac1-7b2c-422c-9d11-fd9cc7abf2a5">
+							<Description />
+							<Properties>
+								<Property Name="CD Status">
+									<U32>2</U32>
+								</Property>
+							</Properties>
+							<Errors />
+						</Section>
+					</Section>
+				</Section>
+				<Section Name="Custom Devices" TypeGUID="03D3BB79-1485-13A6-5605EB7AFD7405AC">
+					<Description />
+					<Properties />
+					<Errors />
+					<Section Name="CANOpen Addon" TypeGUID="ee2eec27-2ab7-4da4-b26b-0d826264739c">
+						<Description />
+						<Properties>
+							<Property Name="CD Status">
+								<U32>1</U32>
+							</Property>
+							<Property Name="Driver VI Exec Mode">
+								<U32>1</U32>
+							</Property>
+							<Property Name="Driver VI Path_0">
+								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\CANOpen Addon\c\CANOpen Addon Engine VxWorks.llb\CANOpen Addon RT Driver VI.vi">
+									<Version>1.0</Version>
+									<ForceDownload>false</ForceDownload>
+									<RTDestination>c:\ni-rt\NIVeriStand\Custom Devices\CANOpen Addon\CANOpen Addon Engine VxWorks.llb\CANOpen Addon RT Driver VI.vi</RTDestination>
+									<SupportedTarget>VxWorks</SupportedTarget>
+									<MD5 />
+								</DependentFile>
+							</Property>
+							<Property Name="Driver VI Path_1">
+								<DependentFile Type="To Common Doc Dir" Path="Custom Devices\CANOpen Addon\CANOpen Addon Engine.llb\CANOpen Addon RT Driver VI.vi">
+									<Version>1.0</Version>
+									<ForceDownload>false</ForceDownload>
+									<RTDestination>c:\ni-rt\NIVeriStand\Custom Devices\CANOpen Addon\CANOpen Addon Engine.llb\CANOpen Addon RT Driver VI.vi</RTDestination>
+									<SupportedTarget>PharLap &amp; Windows</SupportedTarget>
+									<MD5 />
+								</DependentFile>
+							</Property>
+							<Property Name="Version">
+								<String>1.0</String>
+							</Property>
+							<Property Name="user.CD.CANOpen Bus Settings">
+								<Variant>
+									<Type>AAAACgAUQDD/////C2RhdGEgc3RyaW5n</Type>
+									<Data>AAACuBMAgAAAAAABAAQAAAABAAAAAAAKAAAADDk4ODEgQml0ZmlsZRMAgAAAAAABABZAMv////8NKjk4ODEgQml0ZmlsZQABAABQVEgwAAAABAAAAAAAAAAAAAAACUJhdWQgUmF0ZRMAgAAAAAABADIA8c/G8W8AAAABFENBTm9wZW4gQmF1ZFJhdGUuY3RsABVABwAKKkJhdWQgUmF0ZQAAAQAAAAAAAAAAAAAAAAAWQ0FOT3BlbiBJbnRlcmZhY2UgTmFtZRMAgAAAAAABAGYA8QAAAAAAAAACIUNBTk9wZW4gQWRkb24gQ3VzdG9tIERldmljZS5sdmxpYhpDQU5PcGVuIEludGVyZmFjZSBOYW1lLmN0bAAhQAcAFypDQU5PcGVuIEludGVyZmFjZSBOYW1lAAEAAAAAAAAAAAAAAAAACEVEUyBGaWxlEwCAAAAAAAEAEkAy/////wkqRURTIEZpbGUAAQAAUFRIMAAAAAQAAAAAAAAAAAAAAAtFbmFibGUgOTg4MRMAgAAAAAABABJAIQwqRW5hYmxlIDk4ODEAAAEAAAAAAAAAAAAAC0VuYWJsZSBTWU5DEwCAAAAAAAEAEkAhDCpFbmFibGUgU1lOQwAAAQAAAQAAAAAAAAAKUklPIERldmljZRMAgAAAAAABABFABgALKlJJTyBEZXZpY2UAAQAAAAAAAAAAAAAADlNjYW4gYW5kIHByaW50EwCAAAAAAAEAFEAhDypTY2FuIGFuZCBwcmludAABAAAAAAAAAAAAABBTeW5jIFBlcmlvZCAobXMpEwCAAAAAAAEAF0AEABEqU3luYyBQZXJpb2QgKG1zKQABAAAAAAAAAAAAZAAAAAAAAAALVGVybWluYXRpb24TAIAAAAAAAQASQCEMKlRlcm1pbmF0aW9uAAABAAAAAAAAAA==</Data>
+								</Variant>
+							</Property>
+							<Property Name="user.CD.9881 Bitfile">
+								<String />
+							</Property>
+						</Properties>
+						<Errors />
+						<Section Name="CANopen Engine" TypeGUID="d746360c-3e97-4e77-b411-872b8f57c1d4">
+							<Description>Information about status of the CANopen engine and possibility to reset the bus.</Description>
+							<Properties />
+							<Errors />
+							<Channel Name="Reset Bus" TypeGUID="03D3BB99-1485-13A6-561D1F898F032919" RowDim="1" ColDim="1" Units="" BitFields="3">
+								<Description>&gt;0 will reset CANopen bus and communication with slaves</Description>
+								<Properties />
+								<Errors />
+								<DefaultValue>
+									<Elem>0</Elem>
+								</DefaultValue>
+							</Channel>
+							<Channel Name="Status" TypeGUID="03D3BB99-1485-13A6-561D1F898F032919" RowDim="1" ColDim="1" Units="" BitFields="1">
+								<Description>Custom device status channel 
+0 = Up and running</Description>
+								<Properties />
+								<Errors />
+								<DefaultValue>
+									<Elem>0</Elem>
+								</DefaultValue>
+							</Channel>
+							<Channel Name="Iteration duration" TypeGUID="03D3BB99-1485-13A6-561D1F898F032919" RowDim="1" ColDim="1" Units="" BitFields="1">
+								<Description>CANopen engine iteration duration in ms</Description>
+								<Properties />
+								<Errors />
+								<DefaultValue>
+									<Elem>0</Elem>
+								</DefaultValue>
+							</Channel>
+							<Channel Name="Late counts" TypeGUID="03D3BB99-1485-13A6-561D1F898F032919" RowDim="1" ColDim="1" Units="" BitFields="1">
+								<Description>Count of late iterations. 
+If it is increasing, it is recommended  to increase Sync Period on the main page </Description>
+								<Properties />
+								<Errors />
+								<DefaultValue>
+									<Elem>0</Elem>
+								</DefaultValue>
+							</Channel>
+						</Section>
+						<Section Name="Node ID: 17" TypeGUID="30ee7416-8e02-4aa2-8b9c-c256d8ed97d5">
+							<Description />
+							<Properties />
+							<Errors />
+							<Section Name="SDOs" TypeGUID="b40cd152-95d7-469e-822f-e3172d1a480a">
+								<Description />
+								<Properties />
+								<Errors />
+								<Section Name="SDOs - List" TypeGUID="4009128c-3f61-49ec-a349-cb63a112dd75">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.SDO Settings - list dynamic">
+											<Variant>
+												<Type>AAAACgAUQDD/////C2RhdGEgc3RyaW5n</Type>
+												<Data>AAAA+hMAgAAAAAAHABNABgAMT2JqZWN0IEluZGV4AAATQAUADVN1Yi1JbmRleCAoMCkAEUAFAApCbG9jayBEYXRhAAAYQEAAAf////8AAgpCbG9jayBEYXRhAAAOQDD/////BE5hbWUAAFUA8QAAAAAAAAACIUNBTk9wZW4gQWRkb24gQ3VzdG9tIERldmljZS5sdmxpYhhDQU5PcGVuX1NETyBTZXR0aW5ncy5jdGwAEgBQAAQAAAABAAMABAAcQEAAAf////8ABQ5TRE8gUGFyYW1ldGVycwAAAQAGAAAAAhgAAgAAAAEAAAAAABgAAgAAAAECAAAAAAAAAAA=</Data>
+											</Variant>
+										</Property>
+									</Properties>
+									<Errors />
+									<Channel Name="Send specific list SDO" TypeGUID="aab1a3c1-d588-4927-aa76-77b77a44aad7" RowDim="1" ColDim="1" Units="" BitFields="3">
+										<Description>= 0 - idle
+&gt; 0 send specific SDO defined in the list
+
+value is the Message Index in the list starting with 1</Description>
+										<Properties />
+										<Errors />
+										<DefaultValue>
+											<Elem>0</Elem>
+										</DefaultValue>
+									</Channel>
+									<Channel Name="Status of List SDO" TypeGUID="2CA7D733-94A4-4949-AD76-6DC6B0B520E8" RowDim="1" ColDim="1" Units="" BitFields="1">
+										<Description>0      - OK
+&lt;&gt;0 -  Error</Description>
+										<Properties />
+										<Errors />
+										<DefaultValue>
+											<Elem>-1</Elem>
+										</DefaultValue>
+									</Channel>
+								</Section>
+								<Section Name="SDOs - Startup" TypeGUID="4ac413d5-b28b-4132-8469-846c133003cb">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.SDO Settings">
+											<Variant>
+												<Type>AAAACgAUQDD/////C2RhdGEgc3RyaW5n</Type>
+												<Data>AAAA7hMAgAAAAAAHABNABgAMT2JqZWN0IEluZGV4AAATQAUADVN1Yi1JbmRleCAoMCkAEUAFAApCbG9jayBEYXRhAAAYQEAAAf////8AAgpCbG9jayBEYXRhAAAOQDD/////BE5hbWUAAFUA8QAAAAAAAAACIUNBTk9wZW4gQWRkb24gQ3VzdG9tIERldmljZS5sdmxpYhhDQU5PcGVuX1NETyBTZXR0aW5ncy5jdGwAEgBQAAQAAAABAAMABAAcQEAAAf////8ABQ5TRE8gUGFyYW1ldGVycwAAAQAGAAAAARgAAgAAAAEFAAAAAAAAAAA=</Data>
+											</Variant>
+										</Property>
+									</Properties>
+									<Errors />
+								</Section>
+								<Section Name="SDOs - Dynamic" TypeGUID="498D62A3-F405-4B08-B47B-C5A393B4DBAF">
+									<Description />
+									<Properties />
+									<Errors />
+									<Section Name="Read" TypeGUID="C0059D1D-3ED5-454F-9A27-1F2434054ECF">
+										<Description>Section for reading specific SDO register</Description>
+										<Properties />
+										<Errors />
+										<Section Name="Request" TypeGUID="84B55C87-CCAB-4A59-989A-F3927336083A">
+											<Description>Request for reading specific SDO register. 
+Fill channels and trigger the commit channel after for send.</Description>
+											<Properties />
+											<Errors />
+											<Channel Name="Object Index" TypeGUID="96EBA813-65BB-4356-9ACB-EB1E8C7D1BA9" RowDim="1" ColDim="1" Units="" BitFields="3">
+												<Description>Object Index</Description>
+												<Properties />
+												<Errors />
+												<DefaultValue>
+													<Elem>0</Elem>
+												</DefaultValue>
+											</Channel>
+											<Channel Name="Object Sub Index" TypeGUID="96EBA813-65BB-4356-9ACB-EB1E8C7D1BA9" RowDim="1" ColDim="1" Units="" BitFields="3">
+												<Description>Object Sub Index</Description>
+												<Properties />
+												<Errors />
+												<DefaultValue>
+													<Elem>0</Elem>
+												</DefaultValue>
+											</Channel>
+											<Channel Name="Data Type" TypeGUID="96EBA813-65BB-4356-9ACB-EB1E8C7D1BA9" RowDim="1" ColDim="1" Units="" BitFields="3">
+												<Description>Data Type: 
+0 - U8
+1 - U16
+2 - U32
+3 - I8
+4 - I16
+5 - I32
+6 - Single</Description>
+												<Properties />
+												<Errors />
+												<DefaultValue>
+													<Elem>0</Elem>
+												</DefaultValue>
+											</Channel>
+											<Channel Name="Byte Order" TypeGUID="96EBA813-65BB-4356-9ACB-EB1E8C7D1BA9" RowDim="1" ColDim="1" Units="" BitFields="3">
+												<Description>Byte Order:
+0 - big-endian, network order
+1 - little-endian</Description>
+												<Properties />
+												<Errors />
+												<DefaultValue>
+													<Elem>1</Elem>
+												</DefaultValue>
+											</Channel>
+											<Channel Name="Value" TypeGUID="96EBA813-65BB-4356-9ACB-EB1E8C7D1BA9" RowDim="1" ColDim="1" Units="" BitFields="3">
+												<Description>Value:
+Used in write request or read response</Description>
+												<Properties />
+												<Errors />
+												<DefaultValue>
+													<Elem>0</Elem>
+												</DefaultValue>
+											</Channel>
+											<Channel Name="Status Code" TypeGUID="96EBA813-65BB-4356-9ACB-EB1E8C7D1BA9" RowDim="1" ColDim="1" Units="" BitFields="3">
+												<Description>Status Code:
+Used for status of response</Description>
+												<Properties />
+												<Errors />
+												<DefaultValue>
+													<Elem>0</Elem>
+												</DefaultValue>
+											</Channel>
+											<Channel Name="Commit" TypeGUID="96EBA813-65BB-4356-9ACB-EB1E8C7D1BA9" RowDim="1" ColDim="1" Units="" BitFields="3">
+												<Description>Commit:
+Used for request of read or write</Description>
+												<Properties />
+												<Errors />
+												<DefaultValue>
+													<Elem>0</Elem>
+												</DefaultValue>
+											</Channel>
+										</Section>
+										<Section Name="Response" TypeGUID="11BBA49E-62B9-4BE5-94B9-DFD78A3C50D4">
+											<Description>Response for reading specific SDO register.
+</Description>
+											<Properties />
+											<Errors />
+											<Channel Name="Object Index" TypeGUID="4437B1E7-4881-413A-A86D-C6CCD713B80B" RowDim="1" ColDim="1" Units="" BitFields="1">
+												<Description>Object Index</Description>
+												<Properties />
+												<Errors />
+												<DefaultValue>
+													<Elem>0</Elem>
+												</DefaultValue>
+											</Channel>
+											<Channel Name="Object Sub Index" TypeGUID="4437B1E7-4881-413A-A86D-C6CCD713B80B" RowDim="1" ColDim="1" Units="" BitFields="1">
+												<Description>Object Sub Index</Description>
+												<Properties />
+												<Errors />
+												<DefaultValue>
+													<Elem>0</Elem>
+												</DefaultValue>
+											</Channel>
+											<Channel Name="Data Type" TypeGUID="4437B1E7-4881-413A-A86D-C6CCD713B80B" RowDim="1" ColDim="1" Units="" BitFields="1">
+												<Description>Data Type: 
+0 - U8
+1 - U16
+2 - U32
+3 - I8
+4 - I16
+5 - I32
+6 - Single</Description>
+												<Properties />
+												<Errors />
+												<DefaultValue>
+													<Elem>0</Elem>
+												</DefaultValue>
+											</Channel>
+											<Channel Name="Byte Order" TypeGUID="4437B1E7-4881-413A-A86D-C6CCD713B80B" RowDim="1" ColDim="1" Units="" BitFields="1">
+												<Description>Byte Order:
+0 - big-endian, network order
+1 - little-endian</Description>
+												<Properties />
+												<Errors />
+												<DefaultValue>
+													<Elem>1</Elem>
+												</DefaultValue>
+											</Channel>
+											<Channel Name="Value" TypeGUID="4437B1E7-4881-413A-A86D-C6CCD713B80B" RowDim="1" ColDim="1" Units="" BitFields="1">
+												<Description>Value:
+Used in write request or read response</Description>
+												<Properties />
+												<Errors />
+												<DefaultValue>
+													<Elem>0</Elem>
+												</DefaultValue>
+											</Channel>
+											<Channel Name="Status Code" TypeGUID="4437B1E7-4881-413A-A86D-C6CCD713B80B" RowDim="1" ColDim="1" Units="" BitFields="1">
+												<Description>Status Code:
+Used for status of response</Description>
+												<Properties />
+												<Errors />
+												<DefaultValue>
+													<Elem>0</Elem>
+												</DefaultValue>
+											</Channel>
+											<Channel Name="Commit" TypeGUID="4437B1E7-4881-413A-A86D-C6CCD713B80B" RowDim="1" ColDim="1" Units="" BitFields="1">
+												<Description>Commit:
+Used for request of read or write</Description>
+												<Properties />
+												<Errors />
+												<DefaultValue>
+													<Elem>0</Elem>
+												</DefaultValue>
+											</Channel>
+										</Section>
+									</Section>
+									<Section Name="Write" TypeGUID="C0059D1D-3ED5-454F-9A27-1F2434054ECF">
+										<Description>Section for writing specific SDO register</Description>
+										<Properties />
+										<Errors />
+										<Section Name="Request" TypeGUID="3097BF4C-8B3B-4279-9609-A1E06BBA9A61">
+											<Description>Request for writing specific SDO register. 
+Fill channels and trigger the commit channel after for send.</Description>
+											<Properties />
+											<Errors />
+											<Channel Name="Object Index" TypeGUID="51538351-12DA-4E79-8082-0EFA430E7DD8" RowDim="1" ColDim="1" Units="" BitFields="3">
+												<Description>Object Index</Description>
+												<Properties />
+												<Errors />
+												<DefaultValue>
+													<Elem>0</Elem>
+												</DefaultValue>
+											</Channel>
+											<Channel Name="Object Sub Index" TypeGUID="51538351-12DA-4E79-8082-0EFA430E7DD8" RowDim="1" ColDim="1" Units="" BitFields="3">
+												<Description>Object Sub Index</Description>
+												<Properties />
+												<Errors />
+												<DefaultValue>
+													<Elem>0</Elem>
+												</DefaultValue>
+											</Channel>
+											<Channel Name="Data Type" TypeGUID="51538351-12DA-4E79-8082-0EFA430E7DD8" RowDim="1" ColDim="1" Units="" BitFields="3">
+												<Description>Data Type: 
+0 - U8
+1 - U16
+2 - U32
+3 - I8
+4 - I16
+5 - I32
+6 - Single</Description>
+												<Properties />
+												<Errors />
+												<DefaultValue>
+													<Elem>0</Elem>
+												</DefaultValue>
+											</Channel>
+											<Channel Name="Byte Order" TypeGUID="51538351-12DA-4E79-8082-0EFA430E7DD8" RowDim="1" ColDim="1" Units="" BitFields="3">
+												<Description>Byte Order:
+0 - big-endian, network order
+1 - little-endian</Description>
+												<Properties />
+												<Errors />
+												<DefaultValue>
+													<Elem>1</Elem>
+												</DefaultValue>
+											</Channel>
+											<Channel Name="Value" TypeGUID="51538351-12DA-4E79-8082-0EFA430E7DD8" RowDim="1" ColDim="1" Units="" BitFields="3">
+												<Description>Value:
+Used in write request or read response</Description>
+												<Properties />
+												<Errors />
+												<DefaultValue>
+													<Elem>0</Elem>
+												</DefaultValue>
+											</Channel>
+											<Channel Name="Status Code" TypeGUID="51538351-12DA-4E79-8082-0EFA430E7DD8" RowDim="1" ColDim="1" Units="" BitFields="3">
+												<Description>Status Code:
+Used for status of response</Description>
+												<Properties />
+												<Errors />
+												<DefaultValue>
+													<Elem>0</Elem>
+												</DefaultValue>
+											</Channel>
+											<Channel Name="Commit" TypeGUID="51538351-12DA-4E79-8082-0EFA430E7DD8" RowDim="1" ColDim="1" Units="" BitFields="3">
+												<Description>Commit:
+Used for request of read or write</Description>
+												<Properties />
+												<Errors />
+												<DefaultValue>
+													<Elem>0</Elem>
+												</DefaultValue>
+											</Channel>
+										</Section>
+										<Section Name="Response" TypeGUID="B538C8C3-1320-40E6-85C4-5CBF861E5FF7">
+											<Description>Response for writing specific SDO register.
+</Description>
+											<Properties />
+											<Errors />
+											<Channel Name="Object Index" TypeGUID="4F260029-3D47-4DD5-AC89-DDD2EA29783B" RowDim="1" ColDim="1" Units="" BitFields="1">
+												<Description>Object Index</Description>
+												<Properties />
+												<Errors />
+												<DefaultValue>
+													<Elem>0</Elem>
+												</DefaultValue>
+											</Channel>
+											<Channel Name="Object Sub Index" TypeGUID="4F260029-3D47-4DD5-AC89-DDD2EA29783B" RowDim="1" ColDim="1" Units="" BitFields="1">
+												<Description>Object Sub Index</Description>
+												<Properties />
+												<Errors />
+												<DefaultValue>
+													<Elem>0</Elem>
+												</DefaultValue>
+											</Channel>
+											<Channel Name="Data Type" TypeGUID="4F260029-3D47-4DD5-AC89-DDD2EA29783B" RowDim="1" ColDim="1" Units="" BitFields="1">
+												<Description>Data Type: 
+0 - U8
+1 - U16
+2 - U32
+3 - I8
+4 - I16
+5 - I32
+6 - Single</Description>
+												<Properties />
+												<Errors />
+												<DefaultValue>
+													<Elem>0</Elem>
+												</DefaultValue>
+											</Channel>
+											<Channel Name="Byte Order" TypeGUID="4F260029-3D47-4DD5-AC89-DDD2EA29783B" RowDim="1" ColDim="1" Units="" BitFields="1">
+												<Description>Byte Order:
+0 - big-endian, network order
+1 - little-endian</Description>
+												<Properties />
+												<Errors />
+												<DefaultValue>
+													<Elem>1</Elem>
+												</DefaultValue>
+											</Channel>
+											<Channel Name="Value" TypeGUID="4F260029-3D47-4DD5-AC89-DDD2EA29783B" RowDim="1" ColDim="1" Units="" BitFields="1">
+												<Description>Value:
+Used in write request or read response</Description>
+												<Properties />
+												<Errors />
+												<DefaultValue>
+													<Elem>0</Elem>
+												</DefaultValue>
+											</Channel>
+											<Channel Name="Status Code" TypeGUID="4F260029-3D47-4DD5-AC89-DDD2EA29783B" RowDim="1" ColDim="1" Units="" BitFields="1">
+												<Description>Status Code:
+Used for status of response</Description>
+												<Properties />
+												<Errors />
+												<DefaultValue>
+													<Elem>0</Elem>
+												</DefaultValue>
+											</Channel>
+											<Channel Name="Commit" TypeGUID="4F260029-3D47-4DD5-AC89-DDD2EA29783B" RowDim="1" ColDim="1" Units="" BitFields="1">
+												<Description>Commit:
+Used for request of read or write</Description>
+												<Properties />
+												<Errors />
+												<DefaultValue>
+													<Elem>0</Elem>
+												</DefaultValue>
+											</Channel>
+										</Section>
+									</Section>
+								</Section>
+							</Section>
+							<Section Name="RPDOs" TypeGUID="a6766e6a-de04-4fdb-a423-a2081741c0e8">
+								<Description />
+								<Properties />
+								<Errors />
+								<Section Name="PDO Channel: 1" TypeGUID="0e998ef5-190c-48b6-92bd-d5f6d14f96b8">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.PDO Settings">
+											<Variant>
+												<Type>AAAACgAUQDD/////C2RhdGEgc3RyaW5n</Type>
+												<Data>AAAAFBMAgAAAAAABAAQAAAABAAAAAAAA</Data>
+											</Variant>
+										</Property>
+									</Properties>
+									<Errors />
+									<Channel Name="R1_32" TypeGUID="DE69C061-F71C-4601-910F-EC06EE56C86C" RowDim="1" ColDim="1" Units="" BitFields="3">
+										<Description />
+										<Properties>
+											<Property Name="user.CD.PDO Parameter Settings">
+												<Variant>
+													<Type>AAAACgAUQDD/////C2RhdGEgc3RyaW5n</Type>
+													<Data>AAACXBMAgAAAAAABAAQAAAABAAAAAAAHAAAACkJpdCBPZmZzZXQTAIAAAAAAAQAFAAUAAAEAAAAAAAAAAAAAC0J5dGUgT2Zmc2V0EwCAAAAAAAEABQAFAAABAAAAAAAAAAAAAApCeXRlIE9yZGVyEwCAAAAAAAEAgADxAAAAAAAAAAIhQ0FOT3BlbiBBZGRvbiBDdXN0b20gRGV2aWNlLmx2bGliFkNBTm9wZW4gQnl0ZSBPcmRlci5jdGwAP0AWAAIYYmlnLWVuZGlhbiBuZXR3b3JrIG9yZGVyDWxpdHRsZS1lbmRpYW4AAApCeXRlIE9yZGVyAAABAAAAAQAAAAAAAAAJRGF0YSBUeXBlEwCAAAAAAAEAhQDxy+2TKQAAAAIhQ0FOT3BlbiBBZGRvbiBDdXN0b20gRGV2aWNlLmx2bGliGUNBTk9wZW5fUERPIERhdGEgVHlwZS5jdGwAQUAWAAkCVTgDVTE2A1UzMgJJOANJMTYDSTMyBlNpbmdsZQZEb3VibGUHQm9vbGVhbgAJRGF0YSBUeXBlAAEAAAACAAAAAAAAAA5QYXJhbWV0ZXIgTmFtZRMAgAAAAAABABpAMP////8QQ0FOT3BlbiBQRE8gR1VJRAAAAQAAAAAABVIxXzMyAAAAAAAAAAxTY2FsZSBGYWN0b3ITAIAAAAAAAQATQAoADURlZmF1bHQgVmFsdWUAAQAAP/AAAAAAAAAAAAAAAAAADFNjYWxlIE9mZnNldBMAgAAAAAABABNACgANRGVmYXVsdCBWYWx1ZQABAAAAAAAAAAAAAAAAAAA=</Data>
+												</Variant>
+											</Property>
+										</Properties>
+										<Errors />
+										<DefaultValue>
+											<Elem>0</Elem>
+										</DefaultValue>
+									</Channel>
+									<Channel Name="R2_8" TypeGUID="DE69C061-F71C-4601-910F-EC06EE56C86C" RowDim="1" ColDim="1" Units="" BitFields="3">
+										<Description />
+										<Properties>
+											<Property Name="user.CD.PDO Parameter Settings">
+												<Variant>
+													<Type>AAAACgAUQDD/////C2RhdGEgc3RyaW5n</Type>
+													<Data>AAACWxMAgAAAAAABAAQAAAABAAAAAAAHAAAACkJpdCBPZmZzZXQTAIAAAAAAAQAFAAUAAAEAAAAAAAAAAAAAC0J5dGUgT2Zmc2V0EwCAAAAAAAEABQAFAAABAAAEAAAAAAAAAApCeXRlIE9yZGVyEwCAAAAAAAEAgADxAAAAAAAAAAIhQ0FOT3BlbiBBZGRvbiBDdXN0b20gRGV2aWNlLmx2bGliFkNBTm9wZW4gQnl0ZSBPcmRlci5jdGwAP0AWAAIYYmlnLWVuZGlhbiBuZXR3b3JrIG9yZGVyDWxpdHRsZS1lbmRpYW4AAApCeXRlIE9yZGVyAAABAAAAAQAAAAAAAAAJRGF0YSBUeXBlEwCAAAAAAAEAhQDxy+2TKQAAAAIhQ0FOT3BlbiBBZGRvbiBDdXN0b20gRGV2aWNlLmx2bGliGUNBTk9wZW5fUERPIERhdGEgVHlwZS5jdGwAQUAWAAkCVTgDVTE2A1UzMgJJOANJMTYDSTMyBlNpbmdsZQZEb3VibGUHQm9vbGVhbgAJRGF0YSBUeXBlAAEAAAAAAAAAAAAAAA5QYXJhbWV0ZXIgTmFtZRMAgAAAAAABABpAMP////8QQ0FOT3BlbiBQRE8gR1VJRAAAAQAAAAAABFIyXzgAAAAAAAAADFNjYWxlIEZhY3RvchMAgAAAAAABABNACgANRGVmYXVsdCBWYWx1ZQABAAA/8AAAAAAAAAAAAAAAAAAMU2NhbGUgT2Zmc2V0EwCAAAAAAAEAE0AKAA1EZWZhdWx0IFZhbHVlAAEAAAAAAAAAAAAAAAAAAA==</Data>
+												</Variant>
+											</Property>
+										</Properties>
+										<Errors />
+										<DefaultValue>
+											<Elem>0</Elem>
+										</DefaultValue>
+									</Channel>
+								</Section>
+							</Section>
+							<Section Name="TPDOs" TypeGUID="058a6a92-3f0d-49e3-a3a0-9535fbe5a49e">
+								<Description />
+								<Properties />
+								<Errors />
+								<Section Name="PDO Channel: 1" TypeGUID="0e998ef5-190c-48b6-92bd-d5f6d14f96b8">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.PDO Settings">
+											<Variant>
+												<Type>AAAACgAUQDD/////C2RhdGEgc3RyaW5n</Type>
+												<Data>AAAAFBMAgAAAAAABAAQAAAABAAAAAAAA</Data>
+											</Variant>
+										</Property>
+									</Properties>
+									<Errors />
+									<Channel Name="T1_8" TypeGUID="29165bcc-5b74-4ff4-a426-96512b74f616" RowDim="1" ColDim="1" Units="" BitFields="1">
+										<Description />
+										<Properties>
+											<Property Name="user.CD.PDO Parameter Settings">
+												<Variant>
+													<Type>AAAACgAUQDD/////C2RhdGEgc3RyaW5n</Type>
+													<Data>AAACWxMAgAAAAAABAAQAAAABAAAAAAAHAAAACkJpdCBPZmZzZXQTAIAAAAAAAQAFAAUAAAEAAAAAAAAAAAAAC0J5dGUgT2Zmc2V0EwCAAAAAAAEABQAFAAABAAAAAAAAAAAAAApCeXRlIE9yZGVyEwCAAAAAAAEAgADxAAAAAAAAAAIhQ0FOT3BlbiBBZGRvbiBDdXN0b20gRGV2aWNlLmx2bGliFkNBTm9wZW4gQnl0ZSBPcmRlci5jdGwAP0AWAAIYYmlnLWVuZGlhbiBuZXR3b3JrIG9yZGVyDWxpdHRsZS1lbmRpYW4AAApCeXRlIE9yZGVyAAABAAAAAQAAAAAAAAAJRGF0YSBUeXBlEwCAAAAAAAEAhQDxy+2TKQAAAAIhQ0FOT3BlbiBBZGRvbiBDdXN0b20gRGV2aWNlLmx2bGliGUNBTk9wZW5fUERPIERhdGEgVHlwZS5jdGwAQUAWAAkCVTgDVTE2A1UzMgJJOANJMTYDSTMyBlNpbmdsZQZEb3VibGUHQm9vbGVhbgAJRGF0YSBUeXBlAAEAAAAAAAAAAAAAAA5QYXJhbWV0ZXIgTmFtZRMAgAAAAAABABpAMP////8QQ0FOT3BlbiBQRE8gR1VJRAAAAQAAAAAABFQxXzgAAAAAAAAADFNjYWxlIEZhY3RvchMAgAAAAAABABNACgANRGVmYXVsdCBWYWx1ZQABAAA/8AAAAAAAAAAAAAAAAAAMU2NhbGUgT2Zmc2V0EwCAAAAAAAEAE0AKAA1EZWZhdWx0IFZhbHVlAAEAAAAAAAAAAAAAAAAAAA==</Data>
+												</Variant>
+											</Property>
+										</Properties>
+										<Errors />
+										<DefaultValue>
+											<Elem>0</Elem>
+										</DefaultValue>
+									</Channel>
+									<Channel Name="T2_32" TypeGUID="29165bcc-5b74-4ff4-a426-96512b74f616" RowDim="1" ColDim="1" Units="" BitFields="1">
+										<Description />
+										<Properties>
+											<Property Name="user.CD.PDO Parameter Settings">
+												<Variant>
+													<Type>AAAACgAUQDD/////C2RhdGEgc3RyaW5n</Type>
+													<Data>AAACXBMAgAAAAAABAAQAAAABAAAAAAAHAAAACkJpdCBPZmZzZXQTAIAAAAAAAQAFAAUAAAEAAAAAAAAAAAAAC0J5dGUgT2Zmc2V0EwCAAAAAAAEABQAFAAABAAABAAAAAAAAAApCeXRlIE9yZGVyEwCAAAAAAAEAgADxAAAAAAAAAAIhQ0FOT3BlbiBBZGRvbiBDdXN0b20gRGV2aWNlLmx2bGliFkNBTm9wZW4gQnl0ZSBPcmRlci5jdGwAP0AWAAIYYmlnLWVuZGlhbiBuZXR3b3JrIG9yZGVyDWxpdHRsZS1lbmRpYW4AAApCeXRlIE9yZGVyAAABAAAAAQAAAAAAAAAJRGF0YSBUeXBlEwCAAAAAAAEAhQDxy+2TKQAAAAIhQ0FOT3BlbiBBZGRvbiBDdXN0b20gRGV2aWNlLmx2bGliGUNBTk9wZW5fUERPIERhdGEgVHlwZS5jdGwAQUAWAAkCVTgDVTE2A1UzMgJJOANJMTYDSTMyBlNpbmdsZQZEb3VibGUHQm9vbGVhbgAJRGF0YSBUeXBlAAEAAAACAAAAAAAAAA5QYXJhbWV0ZXIgTmFtZRMAgAAAAAABABpAMP////8QQ0FOT3BlbiBQRE8gR1VJRAAAAQAAAAAABVQyXzMyAAAAAAAAAAxTY2FsZSBGYWN0b3ITAIAAAAAAAQATQAoADURlZmF1bHQgVmFsdWUAAQAAP/AAAAAAAAAAAAAAAAAADFNjYWxlIE9mZnNldBMAgAAAAAABABNACgANRGVmYXVsdCBWYWx1ZQABAAAAAAAAAAAAAAAAAAA=</Data>
+												</Variant>
+											</Property>
+										</Properties>
+										<Errors />
+										<DefaultValue>
+											<Elem>0</Elem>
+										</DefaultValue>
+									</Channel>
+								</Section>
+							</Section>
+							<Section Name="NMTs" TypeGUID="E973F48E-341C-44BD-96D0-0955FA5D4E9C">
+								<Description />
+								<Properties>
+									<Property Name="user.CD.Prop_NMT Settings">
+										<Variant>
+											<Type>AAAACgAUQDD/////C2RhdGEgc3RyaW5n</Type>
+											<Data>AAAC1BMAgAAAAAABAAQAAAABAAAAAAAGAAAAGURlbGF5IGZvciBvcHAuIHN0YXRlIChtcykTAIAAAAAAAQAhQAoAGipEZWxheSBmb3Igb3BwLiBzdGF0ZSAobXMpAAABAABAj0AAAAAAAAAAAAAAAAAJRW1lcmdlbmN5EwCAAAAAAAEAEEAhCipFbWVyZ2VuY3kAAAEAAAEAAAAAAAAABUhCIE5HEwCAAAAAAAQAZQDxAAAAAAAAAAIhQ0FOT3BlbiBBZGRvbiBDdXN0b20gRGV2aWNlLmx2bGliHUNhbk9wZW5fTk1UX1N0YXRpYyBkZXRlY3QuY3RsAB1AFgADBE5vbmUCSEICTkcAAARNb2RlAAARQAYAC1VwZGF0ZSBUaW1lAHUA8QAAAAAAAAACIUNBTk9wZW4gQWRkb24gQ3VzdG9tIERldmljZS5sdmxpYh1DYW5PcGVuX05NVF9TdGF0aWMgZGV0ZWN0LmN0bAAtQBYAAwROb25lAkhCAk5HAAAVU3RhdGljIGRldGVjdCBpbiBOb25lAFkA8QAAAAAAAAACIUNBTk9wZW4gQWRkb24gQ3VzdG9tIERldmljZS5sdmxpYhZDYW5PcGVuX05NVF9Db25maWcuY3RsABhAUAADAAAAAQACBipIQiBORwAAAQADAAEBLAACAAAAAAAAABpOb2RlIGluaXQgc3RhdGljIFNETyBzdGF0ZRMAgAAAAAABACFABgAbKk5vZGUgaW5pdCBzdGF0aWMgU0RPIHN0YXRlAAEAAACAAAAAAAAAAA5Ob2RlIHJ1biBzdGF0ZRMAgAAAAAABABVABgAPKk5vZGUgcnVuIHN0YXRlAAEAAAABAAAAAAAAABpTdG9wIGFuZCBSZXNldCBvbiBTaHV0ZG93bhMAgAAAAAABACBAIRsqU3RvcCBhbmQgUmVzZXQgb24gU2h1dGRvd24AAQAAAQAAAAA=</Data>
+										</Variant>
+									</Property>
+								</Properties>
+								<Errors />
+								<Channel Name="NMT command" TypeGUID="1344E165-397F-4945-9CF4-5D878AFF51A5" RowDim="1" ColDim="1" Units="" BitFields="3">
+									<Description>Send Network Management command to slave:
+0 - idle
+1 - start remote node
+2 - stop remote node
+3 - enter pre-operational
+4 - reset node
+5 - reset communication from node side
+6 - reinit communication from NI VS side
+</Description>
+									<Properties />
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="Device State" TypeGUID="B4588A11-20C8-4448-980C-55D7BC0F1605" RowDim="1" ColDim="1" Units="" BitFields="1">
+									<Description>Device State:
+1 - unknown
+0 - bootup
+4 - stopped
+5 - operational
+127 - preoperational
+128 - connection lost</Description>
+									<Properties />
+									<Errors />
+									<DefaultValue>
+										<Elem>-1</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="Timestamp" TypeGUID="B4588A11-20C8-4448-980C-55D7BC0F1605" RowDim="1" ColDim="1" Units="" BitFields="1">
+									<Description>Timestamp of last Heartbeat or Node Guarding state update</Description>
+									<Properties />
+									<Errors />
+									<DefaultValue>
+										<Elem>-1</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="Em Timestamp" TypeGUID="B4588A11-20C8-4448-980C-55D7BC0F1605" RowDim="1" ColDim="1" Units="" BitFields="1">
+									<Description>Emergency Timestamp</Description>
+									<Properties />
+									<Errors />
+									<DefaultValue>
+										<Elem>-1</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="Error Code" TypeGUID="B4588A11-20C8-4448-980C-55D7BC0F1605" RowDim="1" ColDim="1" Units="" BitFields="1">
+									<Description>Error Code</Description>
+									<Properties />
+									<Errors />
+									<DefaultValue>
+										<Elem>-1</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="Error Register" TypeGUID="B4588A11-20C8-4448-980C-55D7BC0F1605" RowDim="1" ColDim="1" Units="" BitFields="1">
+									<Description>Error Register</Description>
+									<Properties />
+									<Errors />
+									<DefaultValue>
+										<Elem>-1</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="Error Byte 01" TypeGUID="B4588A11-20C8-4448-980C-55D7BC0F1605" RowDim="1" ColDim="1" Units="" BitFields="1">
+									<Description>Error Byte 01</Description>
+									<Properties />
+									<Errors />
+									<DefaultValue>
+										<Elem>-1</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="Error Byte 02" TypeGUID="B4588A11-20C8-4448-980C-55D7BC0F1605" RowDim="1" ColDim="1" Units="" BitFields="1">
+									<Description>Error Byte 02</Description>
+									<Properties />
+									<Errors />
+									<DefaultValue>
+										<Elem>-1</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="Error Byte 03" TypeGUID="B4588A11-20C8-4448-980C-55D7BC0F1605" RowDim="1" ColDim="1" Units="" BitFields="1">
+									<Description>Error Byte 03</Description>
+									<Properties />
+									<Errors />
+									<DefaultValue>
+										<Elem>-1</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="Error Byte 04" TypeGUID="B4588A11-20C8-4448-980C-55D7BC0F1605" RowDim="1" ColDim="1" Units="" BitFields="1">
+									<Description>Error Byte 04</Description>
+									<Properties />
+									<Errors />
+									<DefaultValue>
+										<Elem>-1</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="Error Byte 05" TypeGUID="B4588A11-20C8-4448-980C-55D7BC0F1605" RowDim="1" ColDim="1" Units="" BitFields="1">
+									<Description>Error Byte 05</Description>
+									<Properties />
+									<Errors />
+									<DefaultValue>
+										<Elem>-1</Elem>
+									</DefaultValue>
+								</Channel>
+							</Section>
+						</Section>
+						<Section Name="Node ID: 23" TypeGUID="30ee7416-8e02-4aa2-8b9c-c256d8ed97d5">
+							<Description />
+							<Properties />
+							<Errors />
+							<Section Name="SDOs" TypeGUID="b40cd152-95d7-469e-822f-e3172d1a480a">
+								<Description />
+								<Properties />
+								<Errors />
+								<Section Name="SDOs - List" TypeGUID="4009128c-3f61-49ec-a349-cb63a112dd75">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.SDO Settings - list dynamic">
+											<Variant>
+												<Type>AAAACgAUQDD/////C2RhdGEgc3RyaW5n</Type>
+												<Data>AAAA/BMAgAAAAAAHABNABgAMT2JqZWN0IEluZGV4AAATQAUADVN1Yi1JbmRleCAoMCkAEUAFAApCbG9jayBEYXRhAAAYQEAAAf////8AAgpCbG9jayBEYXRhAAAOQDD/////BE5hbWUAAFUA8QAAAAAAAAACIUNBTk9wZW4gQWRkb24gQ3VzdG9tIERldmljZS5sdmxpYhhDQU5PcGVuX1NETyBTZXR0aW5ncy5jdGwAEgBQAAQAAAABAAMABAAcQEAAAf////8ABQ5TRE8gUGFyYW1ldGVycwAAAQAGAAAAAmQRAAAAAAIAAQAAAABkEQAAAAACAAUAAAAAAAAAAA==</Data>
+											</Variant>
+										</Property>
+									</Properties>
+									<Errors />
+									<Channel Name="Send specific list SDO" TypeGUID="aab1a3c1-d588-4927-aa76-77b77a44aad7" RowDim="1" ColDim="1" Units="" BitFields="3">
+										<Description>= 0 - idle
+&gt; 0 send specific SDO defined in the list
+
+value is the Message Index in the list starting with 1</Description>
+										<Properties />
+										<Errors />
+										<DefaultValue>
+											<Elem>0</Elem>
+										</DefaultValue>
+									</Channel>
+									<Channel Name="Status of List SDO" TypeGUID="2CA7D733-94A4-4949-AD76-6DC6B0B520E8" RowDim="1" ColDim="1" Units="" BitFields="1">
+										<Description>0      - OK
+&lt;&gt;0 -  Error</Description>
+										<Properties />
+										<Errors />
+										<DefaultValue>
+											<Elem>-1</Elem>
+										</DefaultValue>
+									</Channel>
+								</Section>
+								<Section Name="SDOs - Startup" TypeGUID="4ac413d5-b28b-4132-8469-846c133003cb">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.SDO Settings">
+											<Variant>
+												<Type>AAAACgAUQDD/////C2RhdGEgc3RyaW5n</Type>
+												<Data>AAAA7xMAgAAAAAAHABNABgAMT2JqZWN0IEluZGV4AAATQAUADVN1Yi1JbmRleCAoMCkAEUAFAApCbG9jayBEYXRhAAAYQEAAAf////8AAgpCbG9jayBEYXRhAAAOQDD/////BE5hbWUAAFUA8QAAAAAAAAACIUNBTk9wZW4gQWRkb24gQ3VzdG9tIERldmljZS5sdmxpYhhDQU5PcGVuX1NETyBTZXR0aW5ncy5jdGwAEgBQAAQAAAABAAMABAAcQEAAAf////8ABQ5TRE8gUGFyYW1ldGVycwAAAQAGAAAAAWQRAAAAAAIACgAAAAAAAAAA</Data>
+											</Variant>
+										</Property>
+									</Properties>
+									<Errors />
+								</Section>
+								<Section Name="SDOs - Dynamic" TypeGUID="498D62A3-F405-4B08-B47B-C5A393B4DBAF">
+									<Description />
+									<Properties />
+									<Errors />
+									<Section Name="Read" TypeGUID="C0059D1D-3ED5-454F-9A27-1F2434054ECF">
+										<Description>Section for reading specific SDO register</Description>
+										<Properties />
+										<Errors />
+										<Section Name="Request" TypeGUID="84B55C87-CCAB-4A59-989A-F3927336083A">
+											<Description>Request for reading specific SDO register. 
+Fill channels and trigger the commit channel after for send.</Description>
+											<Properties />
+											<Errors />
+											<Channel Name="Object Index" TypeGUID="96EBA813-65BB-4356-9ACB-EB1E8C7D1BA9" RowDim="1" ColDim="1" Units="" BitFields="3">
+												<Description>Object Index</Description>
+												<Properties />
+												<Errors />
+												<DefaultValue>
+													<Elem>0</Elem>
+												</DefaultValue>
+											</Channel>
+											<Channel Name="Object Sub Index" TypeGUID="96EBA813-65BB-4356-9ACB-EB1E8C7D1BA9" RowDim="1" ColDim="1" Units="" BitFields="3">
+												<Description>Object Sub Index</Description>
+												<Properties />
+												<Errors />
+												<DefaultValue>
+													<Elem>0</Elem>
+												</DefaultValue>
+											</Channel>
+											<Channel Name="Data Type" TypeGUID="96EBA813-65BB-4356-9ACB-EB1E8C7D1BA9" RowDim="1" ColDim="1" Units="" BitFields="3">
+												<Description>Data Type: 
+0 - U8
+1 - U16
+2 - U32
+3 - I8
+4 - I16
+5 - I32
+6 - Single</Description>
+												<Properties />
+												<Errors />
+												<DefaultValue>
+													<Elem>0</Elem>
+												</DefaultValue>
+											</Channel>
+											<Channel Name="Byte Order" TypeGUID="96EBA813-65BB-4356-9ACB-EB1E8C7D1BA9" RowDim="1" ColDim="1" Units="" BitFields="3">
+												<Description>Byte Order:
+0 - big-endian, network order
+1 - little-endian</Description>
+												<Properties />
+												<Errors />
+												<DefaultValue>
+													<Elem>1</Elem>
+												</DefaultValue>
+											</Channel>
+											<Channel Name="Value" TypeGUID="96EBA813-65BB-4356-9ACB-EB1E8C7D1BA9" RowDim="1" ColDim="1" Units="" BitFields="3">
+												<Description>Value:
+Used in write request or read response</Description>
+												<Properties />
+												<Errors />
+												<DefaultValue>
+													<Elem>0</Elem>
+												</DefaultValue>
+											</Channel>
+											<Channel Name="Status Code" TypeGUID="96EBA813-65BB-4356-9ACB-EB1E8C7D1BA9" RowDim="1" ColDim="1" Units="" BitFields="3">
+												<Description>Status Code:
+Used for status of response</Description>
+												<Properties />
+												<Errors />
+												<DefaultValue>
+													<Elem>0</Elem>
+												</DefaultValue>
+											</Channel>
+											<Channel Name="Commit" TypeGUID="96EBA813-65BB-4356-9ACB-EB1E8C7D1BA9" RowDim="1" ColDim="1" Units="" BitFields="3">
+												<Description>Commit:
+Used for request of read or write</Description>
+												<Properties />
+												<Errors />
+												<DefaultValue>
+													<Elem>0</Elem>
+												</DefaultValue>
+											</Channel>
+										</Section>
+										<Section Name="Response" TypeGUID="11BBA49E-62B9-4BE5-94B9-DFD78A3C50D4">
+											<Description>Response for reading specific SDO register.
+</Description>
+											<Properties />
+											<Errors />
+											<Channel Name="Object Index" TypeGUID="4437B1E7-4881-413A-A86D-C6CCD713B80B" RowDim="1" ColDim="1" Units="" BitFields="1">
+												<Description>Object Index</Description>
+												<Properties />
+												<Errors />
+												<DefaultValue>
+													<Elem>0</Elem>
+												</DefaultValue>
+											</Channel>
+											<Channel Name="Object Sub Index" TypeGUID="4437B1E7-4881-413A-A86D-C6CCD713B80B" RowDim="1" ColDim="1" Units="" BitFields="1">
+												<Description>Object Sub Index</Description>
+												<Properties />
+												<Errors />
+												<DefaultValue>
+													<Elem>0</Elem>
+												</DefaultValue>
+											</Channel>
+											<Channel Name="Data Type" TypeGUID="4437B1E7-4881-413A-A86D-C6CCD713B80B" RowDim="1" ColDim="1" Units="" BitFields="1">
+												<Description>Data Type: 
+0 - U8
+1 - U16
+2 - U32
+3 - I8
+4 - I16
+5 - I32
+6 - Single</Description>
+												<Properties />
+												<Errors />
+												<DefaultValue>
+													<Elem>0</Elem>
+												</DefaultValue>
+											</Channel>
+											<Channel Name="Byte Order" TypeGUID="4437B1E7-4881-413A-A86D-C6CCD713B80B" RowDim="1" ColDim="1" Units="" BitFields="1">
+												<Description>Byte Order:
+0 - big-endian, network order
+1 - little-endian</Description>
+												<Properties />
+												<Errors />
+												<DefaultValue>
+													<Elem>1</Elem>
+												</DefaultValue>
+											</Channel>
+											<Channel Name="Value" TypeGUID="4437B1E7-4881-413A-A86D-C6CCD713B80B" RowDim="1" ColDim="1" Units="" BitFields="1">
+												<Description>Value:
+Used in write request or read response</Description>
+												<Properties />
+												<Errors />
+												<DefaultValue>
+													<Elem>0</Elem>
+												</DefaultValue>
+											</Channel>
+											<Channel Name="Status Code" TypeGUID="4437B1E7-4881-413A-A86D-C6CCD713B80B" RowDim="1" ColDim="1" Units="" BitFields="1">
+												<Description>Status Code:
+Used for status of response</Description>
+												<Properties />
+												<Errors />
+												<DefaultValue>
+													<Elem>0</Elem>
+												</DefaultValue>
+											</Channel>
+											<Channel Name="Commit" TypeGUID="4437B1E7-4881-413A-A86D-C6CCD713B80B" RowDim="1" ColDim="1" Units="" BitFields="1">
+												<Description>Commit:
+Used for request of read or write</Description>
+												<Properties />
+												<Errors />
+												<DefaultValue>
+													<Elem>0</Elem>
+												</DefaultValue>
+											</Channel>
+										</Section>
+									</Section>
+									<Section Name="Write" TypeGUID="C0059D1D-3ED5-454F-9A27-1F2434054ECF">
+										<Description>Section for writing specific SDO register</Description>
+										<Properties />
+										<Errors />
+										<Section Name="Request" TypeGUID="3097BF4C-8B3B-4279-9609-A1E06BBA9A61">
+											<Description>Request for writing specific SDO register. 
+Fill channels and trigger the commit channel after for send.</Description>
+											<Properties />
+											<Errors />
+											<Channel Name="Object Index" TypeGUID="51538351-12DA-4E79-8082-0EFA430E7DD8" RowDim="1" ColDim="1" Units="" BitFields="3">
+												<Description>Object Index</Description>
+												<Properties />
+												<Errors />
+												<DefaultValue>
+													<Elem>0</Elem>
+												</DefaultValue>
+											</Channel>
+											<Channel Name="Object Sub Index" TypeGUID="51538351-12DA-4E79-8082-0EFA430E7DD8" RowDim="1" ColDim="1" Units="" BitFields="3">
+												<Description>Object Sub Index</Description>
+												<Properties />
+												<Errors />
+												<DefaultValue>
+													<Elem>0</Elem>
+												</DefaultValue>
+											</Channel>
+											<Channel Name="Data Type" TypeGUID="51538351-12DA-4E79-8082-0EFA430E7DD8" RowDim="1" ColDim="1" Units="" BitFields="3">
+												<Description>Data Type: 
+0 - U8
+1 - U16
+2 - U32
+3 - I8
+4 - I16
+5 - I32
+6 - Single</Description>
+												<Properties />
+												<Errors />
+												<DefaultValue>
+													<Elem>0</Elem>
+												</DefaultValue>
+											</Channel>
+											<Channel Name="Byte Order" TypeGUID="51538351-12DA-4E79-8082-0EFA430E7DD8" RowDim="1" ColDim="1" Units="" BitFields="3">
+												<Description>Byte Order:
+0 - big-endian, network order
+1 - little-endian</Description>
+												<Properties />
+												<Errors />
+												<DefaultValue>
+													<Elem>1</Elem>
+												</DefaultValue>
+											</Channel>
+											<Channel Name="Value" TypeGUID="51538351-12DA-4E79-8082-0EFA430E7DD8" RowDim="1" ColDim="1" Units="" BitFields="3">
+												<Description>Value:
+Used in write request or read response</Description>
+												<Properties />
+												<Errors />
+												<DefaultValue>
+													<Elem>0</Elem>
+												</DefaultValue>
+											</Channel>
+											<Channel Name="Status Code" TypeGUID="51538351-12DA-4E79-8082-0EFA430E7DD8" RowDim="1" ColDim="1" Units="" BitFields="3">
+												<Description>Status Code:
+Used for status of response</Description>
+												<Properties />
+												<Errors />
+												<DefaultValue>
+													<Elem>0</Elem>
+												</DefaultValue>
+											</Channel>
+											<Channel Name="Commit" TypeGUID="51538351-12DA-4E79-8082-0EFA430E7DD8" RowDim="1" ColDim="1" Units="" BitFields="3">
+												<Description>Commit:
+Used for request of read or write</Description>
+												<Properties />
+												<Errors />
+												<DefaultValue>
+													<Elem>0</Elem>
+												</DefaultValue>
+											</Channel>
+										</Section>
+										<Section Name="Response" TypeGUID="B538C8C3-1320-40E6-85C4-5CBF861E5FF7">
+											<Description>Response for writing specific SDO register.
+</Description>
+											<Properties />
+											<Errors />
+											<Channel Name="Object Index" TypeGUID="4F260029-3D47-4DD5-AC89-DDD2EA29783B" RowDim="1" ColDim="1" Units="" BitFields="1">
+												<Description>Object Index</Description>
+												<Properties />
+												<Errors />
+												<DefaultValue>
+													<Elem>0</Elem>
+												</DefaultValue>
+											</Channel>
+											<Channel Name="Object Sub Index" TypeGUID="4F260029-3D47-4DD5-AC89-DDD2EA29783B" RowDim="1" ColDim="1" Units="" BitFields="1">
+												<Description>Object Sub Index</Description>
+												<Properties />
+												<Errors />
+												<DefaultValue>
+													<Elem>0</Elem>
+												</DefaultValue>
+											</Channel>
+											<Channel Name="Data Type" TypeGUID="4F260029-3D47-4DD5-AC89-DDD2EA29783B" RowDim="1" ColDim="1" Units="" BitFields="1">
+												<Description>Data Type: 
+0 - U8
+1 - U16
+2 - U32
+3 - I8
+4 - I16
+5 - I32
+6 - Single</Description>
+												<Properties />
+												<Errors />
+												<DefaultValue>
+													<Elem>0</Elem>
+												</DefaultValue>
+											</Channel>
+											<Channel Name="Byte Order" TypeGUID="4F260029-3D47-4DD5-AC89-DDD2EA29783B" RowDim="1" ColDim="1" Units="" BitFields="1">
+												<Description>Byte Order:
+0 - big-endian, network order
+1 - little-endian</Description>
+												<Properties />
+												<Errors />
+												<DefaultValue>
+													<Elem>1</Elem>
+												</DefaultValue>
+											</Channel>
+											<Channel Name="Value" TypeGUID="4F260029-3D47-4DD5-AC89-DDD2EA29783B" RowDim="1" ColDim="1" Units="" BitFields="1">
+												<Description>Value:
+Used in write request or read response</Description>
+												<Properties />
+												<Errors />
+												<DefaultValue>
+													<Elem>0</Elem>
+												</DefaultValue>
+											</Channel>
+											<Channel Name="Status Code" TypeGUID="4F260029-3D47-4DD5-AC89-DDD2EA29783B" RowDim="1" ColDim="1" Units="" BitFields="1">
+												<Description>Status Code:
+Used for status of response</Description>
+												<Properties />
+												<Errors />
+												<DefaultValue>
+													<Elem>0</Elem>
+												</DefaultValue>
+											</Channel>
+											<Channel Name="Commit" TypeGUID="4F260029-3D47-4DD5-AC89-DDD2EA29783B" RowDim="1" ColDim="1" Units="" BitFields="1">
+												<Description>Commit:
+Used for request of read or write</Description>
+												<Properties />
+												<Errors />
+												<DefaultValue>
+													<Elem>0</Elem>
+												</DefaultValue>
+											</Channel>
+										</Section>
+									</Section>
+								</Section>
+							</Section>
+							<Section Name="RPDOs" TypeGUID="a6766e6a-de04-4fdb-a423-a2081741c0e8">
+								<Description />
+								<Properties />
+								<Errors />
+								<Section Name="PDO Channel: 1" TypeGUID="0e998ef5-190c-48b6-92bd-d5f6d14f96b8">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.PDO Settings">
+											<Variant>
+												<Type>AAAACgAUQDD/////C2RhdGEgc3RyaW5n</Type>
+												<Data>AAAAFBMAgAAAAAABAAQAAAABAAAAAAAA</Data>
+											</Variant>
+										</Property>
+									</Properties>
+									<Errors />
+									<Channel Name="R1_32" TypeGUID="DE69C061-F71C-4601-910F-EC06EE56C86C" RowDim="1" ColDim="1" Units="" BitFields="3">
+										<Description />
+										<Properties>
+											<Property Name="user.CD.PDO Parameter Settings">
+												<Variant>
+													<Type>AAAACgAUQDD/////C2RhdGEgc3RyaW5n</Type>
+													<Data>AAACXBMAgAAAAAABAAQAAAABAAAAAAAHAAAACkJpdCBPZmZzZXQTAIAAAAAAAQAFAAUAAAEAAAAAAAAAAAAAC0J5dGUgT2Zmc2V0EwCAAAAAAAEABQAFAAABAAAAAAAAAAAAAApCeXRlIE9yZGVyEwCAAAAAAAEAgADxAAAAAAAAAAIhQ0FOT3BlbiBBZGRvbiBDdXN0b20gRGV2aWNlLmx2bGliFkNBTm9wZW4gQnl0ZSBPcmRlci5jdGwAP0AWAAIYYmlnLWVuZGlhbiBuZXR3b3JrIG9yZGVyDWxpdHRsZS1lbmRpYW4AAApCeXRlIE9yZGVyAAABAAAAAQAAAAAAAAAJRGF0YSBUeXBlEwCAAAAAAAEAhQDxy+2TKQAAAAIhQ0FOT3BlbiBBZGRvbiBDdXN0b20gRGV2aWNlLmx2bGliGUNBTk9wZW5fUERPIERhdGEgVHlwZS5jdGwAQUAWAAkCVTgDVTE2A1UzMgJJOANJMTYDSTMyBlNpbmdsZQZEb3VibGUHQm9vbGVhbgAJRGF0YSBUeXBlAAEAAAACAAAAAAAAAA5QYXJhbWV0ZXIgTmFtZRMAgAAAAAABABpAMP////8QQ0FOT3BlbiBQRE8gR1VJRAAAAQAAAAAABVIxXzMyAAAAAAAAAAxTY2FsZSBGYWN0b3ITAIAAAAAAAQATQAoADURlZmF1bHQgVmFsdWUAAQAAP/AAAAAAAAAAAAAAAAAADFNjYWxlIE9mZnNldBMAgAAAAAABABNACgANRGVmYXVsdCBWYWx1ZQABAAAAAAAAAAAAAAAAAAA=</Data>
+												</Variant>
+											</Property>
+										</Properties>
+										<Errors />
+										<DefaultValue>
+											<Elem>0</Elem>
+										</DefaultValue>
+									</Channel>
+								</Section>
+							</Section>
+							<Section Name="TPDOs" TypeGUID="058a6a92-3f0d-49e3-a3a0-9535fbe5a49e">
+								<Description />
+								<Properties />
+								<Errors />
+								<Section Name="PDO Channel: 1" TypeGUID="0e998ef5-190c-48b6-92bd-d5f6d14f96b8">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.PDO Settings">
+											<Variant>
+												<Type>AAAACgAUQDD/////C2RhdGEgc3RyaW5n</Type>
+												<Data>AAAAFBMAgAAAAAABAAQAAAABAAAAAAAA</Data>
+											</Variant>
+										</Property>
+									</Properties>
+									<Errors />
+									<Channel Name="T1_32" TypeGUID="29165bcc-5b74-4ff4-a426-96512b74f616" RowDim="1" ColDim="1" Units="" BitFields="1">
+										<Description />
+										<Properties>
+											<Property Name="user.CD.PDO Parameter Settings">
+												<Variant>
+													<Type>AAAACgAUQDD/////C2RhdGEgc3RyaW5n</Type>
+													<Data>AAACXBMAgAAAAAABAAQAAAABAAAAAAAHAAAACkJpdCBPZmZzZXQTAIAAAAAAAQAFAAUAAAEAAAAAAAAAAAAAC0J5dGUgT2Zmc2V0EwCAAAAAAAEABQAFAAABAAAAAAAAAAAAAApCeXRlIE9yZGVyEwCAAAAAAAEAgADxAAAAAAAAAAIhQ0FOT3BlbiBBZGRvbiBDdXN0b20gRGV2aWNlLmx2bGliFkNBTm9wZW4gQnl0ZSBPcmRlci5jdGwAP0AWAAIYYmlnLWVuZGlhbiBuZXR3b3JrIG9yZGVyDWxpdHRsZS1lbmRpYW4AAApCeXRlIE9yZGVyAAABAAAAAQAAAAAAAAAJRGF0YSBUeXBlEwCAAAAAAAEAhQDxy+2TKQAAAAIhQ0FOT3BlbiBBZGRvbiBDdXN0b20gRGV2aWNlLmx2bGliGUNBTk9wZW5fUERPIERhdGEgVHlwZS5jdGwAQUAWAAkCVTgDVTE2A1UzMgJJOANJMTYDSTMyBlNpbmdsZQZEb3VibGUHQm9vbGVhbgAJRGF0YSBUeXBlAAEAAAACAAAAAAAAAA5QYXJhbWV0ZXIgTmFtZRMAgAAAAAABABpAMP////8QQ0FOT3BlbiBQRE8gR1VJRAAAAQAAAAAABVQxXzMyAAAAAAAAAAxTY2FsZSBGYWN0b3ITAIAAAAAAAQATQAoADURlZmF1bHQgVmFsdWUAAQAAP/AAAAAAAAAAAAAAAAAADFNjYWxlIE9mZnNldBMAgAAAAAABABNACgANRGVmYXVsdCBWYWx1ZQABAAAAAAAAAAAAAAAAAAA=</Data>
+												</Variant>
+											</Property>
+										</Properties>
+										<Errors />
+										<DefaultValue>
+											<Elem>0</Elem>
+										</DefaultValue>
+									</Channel>
+								</Section>
+							</Section>
+							<Section Name="NMTs" TypeGUID="E973F48E-341C-44BD-96D0-0955FA5D4E9C">
+								<Description />
+								<Properties>
+									<Property Name="user.CD.Prop_NMT Settings">
+										<Variant>
+											<Type>AAAACgAUQDD/////C2RhdGEgc3RyaW5n</Type>
+											<Data>AAAC1BMAgAAAAAABAAQAAAABAAAAAAAGAAAAGURlbGF5IGZvciBvcHAuIHN0YXRlIChtcykTAIAAAAAAAQAhQAoAGipEZWxheSBmb3Igb3BwLiBzdGF0ZSAobXMpAAABAABAj0AAAAAAAAAAAAAAAAAJRW1lcmdlbmN5EwCAAAAAAAEAEEAhCipFbWVyZ2VuY3kAAAEAAAAAAAAAAAAABUhCIE5HEwCAAAAAAAQAZQDxAAAAAAAAAAIhQ0FOT3BlbiBBZGRvbiBDdXN0b20gRGV2aWNlLmx2bGliHUNhbk9wZW5fTk1UX1N0YXRpYyBkZXRlY3QuY3RsAB1AFgADBE5vbmUCSEICTkcAAARNb2RlAAARQAYAC1VwZGF0ZSBUaW1lAHUA8QAAAAAAAAACIUNBTk9wZW4gQWRkb24gQ3VzdG9tIERldmljZS5sdmxpYh1DYW5PcGVuX05NVF9TdGF0aWMgZGV0ZWN0LmN0bAAtQBYAAwROb25lAkhCAk5HAAAVU3RhdGljIGRldGVjdCBpbiBOb25lAFkA8QAAAAAAAAACIUNBTk9wZW4gQWRkb24gQ3VzdG9tIERldmljZS5sdmxpYhZDYW5PcGVuX05NVF9Db25maWcuY3RsABhAUAADAAAAAQACBipIQiBORwAAAQADAAAAZAAAAAAAAAAAABpOb2RlIGluaXQgc3RhdGljIFNETyBzdGF0ZRMAgAAAAAABACFABgAbKk5vZGUgaW5pdCBzdGF0aWMgU0RPIHN0YXRlAAEAAACAAAAAAAAAAA5Ob2RlIHJ1biBzdGF0ZRMAgAAAAAABABVABgAPKk5vZGUgcnVuIHN0YXRlAAEAAAABAAAAAAAAABpTdG9wIGFuZCBSZXNldCBvbiBTaHV0ZG93bhMAgAAAAAABACBAIRsqU3RvcCBhbmQgUmVzZXQgb24gU2h1dGRvd24AAQAAAQAAAAA=</Data>
+										</Variant>
+									</Property>
+								</Properties>
+								<Errors />
+								<Channel Name="NMT command" TypeGUID="1344E165-397F-4945-9CF4-5D878AFF51A5" RowDim="1" ColDim="1" Units="" BitFields="3">
+									<Description>Send Network Management command to slave:
+0 - idle
+1 - start remote node
+2 - stop remote node
+3 - enter pre-operational
+4 - reset node
+5 - reset communication from node side
+6 - reinit communication from NI VS side
+</Description>
+									<Properties />
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="Device State" TypeGUID="B4588A11-20C8-4448-980C-55D7BC0F1605" RowDim="1" ColDim="1" Units="" BitFields="1">
+									<Description>Device State:
+1 - unknown
+0 - bootup
+4 - stopped
+5 - operational
+127 - preoperational
+128 - connection lost</Description>
+									<Properties />
+									<Errors />
+									<DefaultValue>
+										<Elem>-1</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="Timestamp" TypeGUID="B4588A11-20C8-4448-980C-55D7BC0F1605" RowDim="1" ColDim="1" Units="" BitFields="1">
+									<Description>Timestamp of last Heartbeat or Node Guarding state update</Description>
+									<Properties />
+									<Errors />
+									<DefaultValue>
+										<Elem>-1</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="Em Timestamp" TypeGUID="B4588A11-20C8-4448-980C-55D7BC0F1605" RowDim="1" ColDim="1" Units="" BitFields="1">
+									<Description>Emergency Timestamp</Description>
+									<Properties />
+									<Errors />
+									<DefaultValue>
+										<Elem>-1</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="Error Code" TypeGUID="B4588A11-20C8-4448-980C-55D7BC0F1605" RowDim="1" ColDim="1" Units="" BitFields="1">
+									<Description>Error Code</Description>
+									<Properties />
+									<Errors />
+									<DefaultValue>
+										<Elem>-1</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="Error Register" TypeGUID="B4588A11-20C8-4448-980C-55D7BC0F1605" RowDim="1" ColDim="1" Units="" BitFields="1">
+									<Description>Error Register</Description>
+									<Properties />
+									<Errors />
+									<DefaultValue>
+										<Elem>-1</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="Error Byte 01" TypeGUID="B4588A11-20C8-4448-980C-55D7BC0F1605" RowDim="1" ColDim="1" Units="" BitFields="1">
+									<Description>Error Byte 01</Description>
+									<Properties />
+									<Errors />
+									<DefaultValue>
+										<Elem>-1</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="Error Byte 02" TypeGUID="B4588A11-20C8-4448-980C-55D7BC0F1605" RowDim="1" ColDim="1" Units="" BitFields="1">
+									<Description>Error Byte 02</Description>
+									<Properties />
+									<Errors />
+									<DefaultValue>
+										<Elem>-1</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="Error Byte 03" TypeGUID="B4588A11-20C8-4448-980C-55D7BC0F1605" RowDim="1" ColDim="1" Units="" BitFields="1">
+									<Description>Error Byte 03</Description>
+									<Properties />
+									<Errors />
+									<DefaultValue>
+										<Elem>-1</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="Error Byte 04" TypeGUID="B4588A11-20C8-4448-980C-55D7BC0F1605" RowDim="1" ColDim="1" Units="" BitFields="1">
+									<Description>Error Byte 04</Description>
+									<Properties />
+									<Errors />
+									<DefaultValue>
+										<Elem>-1</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="Error Byte 05" TypeGUID="B4588A11-20C8-4448-980C-55D7BC0F1605" RowDim="1" ColDim="1" Units="" BitFields="1">
+									<Description>Error Byte 05</Description>
+									<Properties />
+									<Errors />
+									<DefaultValue>
+										<Elem>-1</Elem>
+									</DefaultValue>
+								</Channel>
+							</Section>
+						</Section>
+						<Section Name="Node ID: 33" TypeGUID="30ee7416-8e02-4aa2-8b9c-c256d8ed97d5">
+							<Description />
+							<Properties />
+							<Errors />
+							<Section Name="SDOs" TypeGUID="b40cd152-95d7-469e-822f-e3172d1a480a">
+								<Description />
+								<Properties />
+								<Errors />
+								<Section Name="SDOs - List" TypeGUID="4009128c-3f61-49ec-a349-cb63a112dd75">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.SDO Settings - list dynamic">
+											<Variant>
+												<Type>AAAACgAUQDD/////C2RhdGEgc3RyaW5n</Type>
+												<Data>AAAA/BMAgAAAAAAHABNABgAMT2JqZWN0IEluZGV4AAATQAUADVN1Yi1JbmRleCAoMCkAEUAFAApCbG9jayBEYXRhAAAYQEAAAf////8AAgpCbG9jayBEYXRhAAAOQDD/////BE5hbWUAAFUA8QAAAAAAAAACIUNBTk9wZW4gQWRkb24gQ3VzdG9tIERldmljZS5sdmxpYhhDQU5PcGVuX1NETyBTZXR0aW5ncy5jdGwAEgBQAAQAAAABAAMABAAcQEAAAf////8ABQ5TRE8gUGFyYW1ldGVycwAAAQAGAAAAAmQRAAAAAAIAAQAAAABkEQAAAAACAAUAAAAAAAAAAA==</Data>
+											</Variant>
+										</Property>
+									</Properties>
+									<Errors />
+									<Channel Name="Send specific list SDO" TypeGUID="aab1a3c1-d588-4927-aa76-77b77a44aad7" RowDim="1" ColDim="1" Units="" BitFields="3">
+										<Description>= 0 - idle
+&gt; 0 send specific SDO defined in the list
+
+value is the Message Index in the list starting with 1</Description>
+										<Properties />
+										<Errors />
+										<DefaultValue>
+											<Elem>0</Elem>
+										</DefaultValue>
+									</Channel>
+									<Channel Name="Status of List SDO" TypeGUID="2CA7D733-94A4-4949-AD76-6DC6B0B520E8" RowDim="1" ColDim="1" Units="" BitFields="1">
+										<Description>0      - OK
+&lt;&gt;0 -  Error</Description>
+										<Properties />
+										<Errors />
+										<DefaultValue>
+											<Elem>-1</Elem>
+										</DefaultValue>
+									</Channel>
+								</Section>
+								<Section Name="SDOs - Startup" TypeGUID="4ac413d5-b28b-4132-8469-846c133003cb">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.SDO Settings">
+											<Variant>
+												<Type>AAAACgAUQDD/////C2RhdGEgc3RyaW5n</Type>
+												<Data>AAAA7xMAgAAAAAAHABNABgAMT2JqZWN0IEluZGV4AAATQAUADVN1Yi1JbmRleCAoMCkAEUAFAApCbG9jayBEYXRhAAAYQEAAAf////8AAgpCbG9jayBEYXRhAAAOQDD/////BE5hbWUAAFUA8QAAAAAAAAACIUNBTk9wZW4gQWRkb24gQ3VzdG9tIERldmljZS5sdmxpYhhDQU5PcGVuX1NETyBTZXR0aW5ncy5jdGwAEgBQAAQAAAABAAMABAAcQEAAAf////8ABQ5TRE8gUGFyYW1ldGVycwAAAQAGAAAAAWQRAAAAAAIACgAAAAAAAAAA</Data>
+											</Variant>
+										</Property>
+									</Properties>
+									<Errors />
+								</Section>
+								<Section Name="SDOs - Dynamic" TypeGUID="498D62A3-F405-4B08-B47B-C5A393B4DBAF">
+									<Description />
+									<Properties />
+									<Errors />
+									<Section Name="Read" TypeGUID="C0059D1D-3ED5-454F-9A27-1F2434054ECF">
+										<Description>Section for reading specific SDO register</Description>
+										<Properties />
+										<Errors />
+										<Section Name="Request" TypeGUID="84B55C87-CCAB-4A59-989A-F3927336083A">
+											<Description>Request for reading specific SDO register. 
+Fill channels and trigger the commit channel after for send.</Description>
+											<Properties />
+											<Errors />
+											<Channel Name="Object Index" TypeGUID="96EBA813-65BB-4356-9ACB-EB1E8C7D1BA9" RowDim="1" ColDim="1" Units="" BitFields="3">
+												<Description>Object Index</Description>
+												<Properties />
+												<Errors />
+												<DefaultValue>
+													<Elem>0</Elem>
+												</DefaultValue>
+											</Channel>
+											<Channel Name="Object Sub Index" TypeGUID="96EBA813-65BB-4356-9ACB-EB1E8C7D1BA9" RowDim="1" ColDim="1" Units="" BitFields="3">
+												<Description>Object Sub Index</Description>
+												<Properties />
+												<Errors />
+												<DefaultValue>
+													<Elem>0</Elem>
+												</DefaultValue>
+											</Channel>
+											<Channel Name="Data Type" TypeGUID="96EBA813-65BB-4356-9ACB-EB1E8C7D1BA9" RowDim="1" ColDim="1" Units="" BitFields="3">
+												<Description>Data Type: 
+0 - U8
+1 - U16
+2 - U32
+3 - I8
+4 - I16
+5 - I32
+6 - Single</Description>
+												<Properties />
+												<Errors />
+												<DefaultValue>
+													<Elem>0</Elem>
+												</DefaultValue>
+											</Channel>
+											<Channel Name="Byte Order" TypeGUID="96EBA813-65BB-4356-9ACB-EB1E8C7D1BA9" RowDim="1" ColDim="1" Units="" BitFields="3">
+												<Description>Byte Order:
+0 - big-endian, network order
+1 - little-endian</Description>
+												<Properties />
+												<Errors />
+												<DefaultValue>
+													<Elem>1</Elem>
+												</DefaultValue>
+											</Channel>
+											<Channel Name="Value" TypeGUID="96EBA813-65BB-4356-9ACB-EB1E8C7D1BA9" RowDim="1" ColDim="1" Units="" BitFields="3">
+												<Description>Value:
+Used in write request or read response</Description>
+												<Properties />
+												<Errors />
+												<DefaultValue>
+													<Elem>0</Elem>
+												</DefaultValue>
+											</Channel>
+											<Channel Name="Status Code" TypeGUID="96EBA813-65BB-4356-9ACB-EB1E8C7D1BA9" RowDim="1" ColDim="1" Units="" BitFields="3">
+												<Description>Status Code:
+Used for status of response</Description>
+												<Properties />
+												<Errors />
+												<DefaultValue>
+													<Elem>0</Elem>
+												</DefaultValue>
+											</Channel>
+											<Channel Name="Commit" TypeGUID="96EBA813-65BB-4356-9ACB-EB1E8C7D1BA9" RowDim="1" ColDim="1" Units="" BitFields="3">
+												<Description>Commit:
+Used for request of read or write</Description>
+												<Properties />
+												<Errors />
+												<DefaultValue>
+													<Elem>0</Elem>
+												</DefaultValue>
+											</Channel>
+										</Section>
+										<Section Name="Response" TypeGUID="11BBA49E-62B9-4BE5-94B9-DFD78A3C50D4">
+											<Description>Response for reading specific SDO register.
+</Description>
+											<Properties />
+											<Errors />
+											<Channel Name="Object Index" TypeGUID="4437B1E7-4881-413A-A86D-C6CCD713B80B" RowDim="1" ColDim="1" Units="" BitFields="1">
+												<Description>Object Index</Description>
+												<Properties />
+												<Errors />
+												<DefaultValue>
+													<Elem>0</Elem>
+												</DefaultValue>
+											</Channel>
+											<Channel Name="Object Sub Index" TypeGUID="4437B1E7-4881-413A-A86D-C6CCD713B80B" RowDim="1" ColDim="1" Units="" BitFields="1">
+												<Description>Object Sub Index</Description>
+												<Properties />
+												<Errors />
+												<DefaultValue>
+													<Elem>0</Elem>
+												</DefaultValue>
+											</Channel>
+											<Channel Name="Data Type" TypeGUID="4437B1E7-4881-413A-A86D-C6CCD713B80B" RowDim="1" ColDim="1" Units="" BitFields="1">
+												<Description>Data Type: 
+0 - U8
+1 - U16
+2 - U32
+3 - I8
+4 - I16
+5 - I32
+6 - Single</Description>
+												<Properties />
+												<Errors />
+												<DefaultValue>
+													<Elem>0</Elem>
+												</DefaultValue>
+											</Channel>
+											<Channel Name="Byte Order" TypeGUID="4437B1E7-4881-413A-A86D-C6CCD713B80B" RowDim="1" ColDim="1" Units="" BitFields="1">
+												<Description>Byte Order:
+0 - big-endian, network order
+1 - little-endian</Description>
+												<Properties />
+												<Errors />
+												<DefaultValue>
+													<Elem>1</Elem>
+												</DefaultValue>
+											</Channel>
+											<Channel Name="Value" TypeGUID="4437B1E7-4881-413A-A86D-C6CCD713B80B" RowDim="1" ColDim="1" Units="" BitFields="1">
+												<Description>Value:
+Used in write request or read response</Description>
+												<Properties />
+												<Errors />
+												<DefaultValue>
+													<Elem>0</Elem>
+												</DefaultValue>
+											</Channel>
+											<Channel Name="Status Code" TypeGUID="4437B1E7-4881-413A-A86D-C6CCD713B80B" RowDim="1" ColDim="1" Units="" BitFields="1">
+												<Description>Status Code:
+Used for status of response</Description>
+												<Properties />
+												<Errors />
+												<DefaultValue>
+													<Elem>0</Elem>
+												</DefaultValue>
+											</Channel>
+											<Channel Name="Commit" TypeGUID="4437B1E7-4881-413A-A86D-C6CCD713B80B" RowDim="1" ColDim="1" Units="" BitFields="1">
+												<Description>Commit:
+Used for request of read or write</Description>
+												<Properties />
+												<Errors />
+												<DefaultValue>
+													<Elem>0</Elem>
+												</DefaultValue>
+											</Channel>
+										</Section>
+									</Section>
+									<Section Name="Write" TypeGUID="C0059D1D-3ED5-454F-9A27-1F2434054ECF">
+										<Description>Section for writing specific SDO register</Description>
+										<Properties />
+										<Errors />
+										<Section Name="Request" TypeGUID="3097BF4C-8B3B-4279-9609-A1E06BBA9A61">
+											<Description>Request for writing specific SDO register. 
+Fill channels and trigger the commit channel after for send.</Description>
+											<Properties />
+											<Errors />
+											<Channel Name="Object Index" TypeGUID="51538351-12DA-4E79-8082-0EFA430E7DD8" RowDim="1" ColDim="1" Units="" BitFields="3">
+												<Description>Object Index</Description>
+												<Properties />
+												<Errors />
+												<DefaultValue>
+													<Elem>0</Elem>
+												</DefaultValue>
+											</Channel>
+											<Channel Name="Object Sub Index" TypeGUID="51538351-12DA-4E79-8082-0EFA430E7DD8" RowDim="1" ColDim="1" Units="" BitFields="3">
+												<Description>Object Sub Index</Description>
+												<Properties />
+												<Errors />
+												<DefaultValue>
+													<Elem>0</Elem>
+												</DefaultValue>
+											</Channel>
+											<Channel Name="Data Type" TypeGUID="51538351-12DA-4E79-8082-0EFA430E7DD8" RowDim="1" ColDim="1" Units="" BitFields="3">
+												<Description>Data Type: 
+0 - U8
+1 - U16
+2 - U32
+3 - I8
+4 - I16
+5 - I32
+6 - Single</Description>
+												<Properties />
+												<Errors />
+												<DefaultValue>
+													<Elem>0</Elem>
+												</DefaultValue>
+											</Channel>
+											<Channel Name="Byte Order" TypeGUID="51538351-12DA-4E79-8082-0EFA430E7DD8" RowDim="1" ColDim="1" Units="" BitFields="3">
+												<Description>Byte Order:
+0 - big-endian, network order
+1 - little-endian</Description>
+												<Properties />
+												<Errors />
+												<DefaultValue>
+													<Elem>1</Elem>
+												</DefaultValue>
+											</Channel>
+											<Channel Name="Value" TypeGUID="51538351-12DA-4E79-8082-0EFA430E7DD8" RowDim="1" ColDim="1" Units="" BitFields="3">
+												<Description>Value:
+Used in write request or read response</Description>
+												<Properties />
+												<Errors />
+												<DefaultValue>
+													<Elem>0</Elem>
+												</DefaultValue>
+											</Channel>
+											<Channel Name="Status Code" TypeGUID="51538351-12DA-4E79-8082-0EFA430E7DD8" RowDim="1" ColDim="1" Units="" BitFields="3">
+												<Description>Status Code:
+Used for status of response</Description>
+												<Properties />
+												<Errors />
+												<DefaultValue>
+													<Elem>0</Elem>
+												</DefaultValue>
+											</Channel>
+											<Channel Name="Commit" TypeGUID="51538351-12DA-4E79-8082-0EFA430E7DD8" RowDim="1" ColDim="1" Units="" BitFields="3">
+												<Description>Commit:
+Used for request of read or write</Description>
+												<Properties />
+												<Errors />
+												<DefaultValue>
+													<Elem>0</Elem>
+												</DefaultValue>
+											</Channel>
+										</Section>
+										<Section Name="Response" TypeGUID="B538C8C3-1320-40E6-85C4-5CBF861E5FF7">
+											<Description>Response for writing specific SDO register.
+</Description>
+											<Properties />
+											<Errors />
+											<Channel Name="Object Index" TypeGUID="4F260029-3D47-4DD5-AC89-DDD2EA29783B" RowDim="1" ColDim="1" Units="" BitFields="1">
+												<Description>Object Index</Description>
+												<Properties />
+												<Errors />
+												<DefaultValue>
+													<Elem>0</Elem>
+												</DefaultValue>
+											</Channel>
+											<Channel Name="Object Sub Index" TypeGUID="4F260029-3D47-4DD5-AC89-DDD2EA29783B" RowDim="1" ColDim="1" Units="" BitFields="1">
+												<Description>Object Sub Index</Description>
+												<Properties />
+												<Errors />
+												<DefaultValue>
+													<Elem>0</Elem>
+												</DefaultValue>
+											</Channel>
+											<Channel Name="Data Type" TypeGUID="4F260029-3D47-4DD5-AC89-DDD2EA29783B" RowDim="1" ColDim="1" Units="" BitFields="1">
+												<Description>Data Type: 
+0 - U8
+1 - U16
+2 - U32
+3 - I8
+4 - I16
+5 - I32
+6 - Single</Description>
+												<Properties />
+												<Errors />
+												<DefaultValue>
+													<Elem>0</Elem>
+												</DefaultValue>
+											</Channel>
+											<Channel Name="Byte Order" TypeGUID="4F260029-3D47-4DD5-AC89-DDD2EA29783B" RowDim="1" ColDim="1" Units="" BitFields="1">
+												<Description>Byte Order:
+0 - big-endian, network order
+1 - little-endian</Description>
+												<Properties />
+												<Errors />
+												<DefaultValue>
+													<Elem>1</Elem>
+												</DefaultValue>
+											</Channel>
+											<Channel Name="Value" TypeGUID="4F260029-3D47-4DD5-AC89-DDD2EA29783B" RowDim="1" ColDim="1" Units="" BitFields="1">
+												<Description>Value:
+Used in write request or read response</Description>
+												<Properties />
+												<Errors />
+												<DefaultValue>
+													<Elem>0</Elem>
+												</DefaultValue>
+											</Channel>
+											<Channel Name="Status Code" TypeGUID="4F260029-3D47-4DD5-AC89-DDD2EA29783B" RowDim="1" ColDim="1" Units="" BitFields="1">
+												<Description>Status Code:
+Used for status of response</Description>
+												<Properties />
+												<Errors />
+												<DefaultValue>
+													<Elem>0</Elem>
+												</DefaultValue>
+											</Channel>
+											<Channel Name="Commit" TypeGUID="4F260029-3D47-4DD5-AC89-DDD2EA29783B" RowDim="1" ColDim="1" Units="" BitFields="1">
+												<Description>Commit:
+Used for request of read or write</Description>
+												<Properties />
+												<Errors />
+												<DefaultValue>
+													<Elem>0</Elem>
+												</DefaultValue>
+											</Channel>
+										</Section>
+									</Section>
+								</Section>
+							</Section>
+							<Section Name="RPDOs" TypeGUID="a6766e6a-de04-4fdb-a423-a2081741c0e8">
+								<Description />
+								<Properties />
+								<Errors />
+								<Section Name="PDO Channel: 1" TypeGUID="0e998ef5-190c-48b6-92bd-d5f6d14f96b8">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.PDO Settings">
+											<Variant>
+												<Type>AAAACgAUQDD/////C2RhdGEgc3RyaW5n</Type>
+												<Data>AAAAFBMAgAAAAAABAAQAAAABAAAAAAAA</Data>
+											</Variant>
+										</Property>
+									</Properties>
+									<Errors />
+									<Channel Name="R1_32" TypeGUID="DE69C061-F71C-4601-910F-EC06EE56C86C" RowDim="1" ColDim="1" Units="" BitFields="3">
+										<Description />
+										<Properties>
+											<Property Name="user.CD.PDO Parameter Settings">
+												<Variant>
+													<Type>AAAACgAUQDD/////C2RhdGEgc3RyaW5n</Type>
+													<Data>AAACXBMAgAAAAAABAAQAAAABAAAAAAAHAAAACkJpdCBPZmZzZXQTAIAAAAAAAQAFAAUAAAEAAAAAAAAAAAAAC0J5dGUgT2Zmc2V0EwCAAAAAAAEABQAFAAABAAAAAAAAAAAAAApCeXRlIE9yZGVyEwCAAAAAAAEAgADxAAAAAAAAAAIhQ0FOT3BlbiBBZGRvbiBDdXN0b20gRGV2aWNlLmx2bGliFkNBTm9wZW4gQnl0ZSBPcmRlci5jdGwAP0AWAAIYYmlnLWVuZGlhbiBuZXR3b3JrIG9yZGVyDWxpdHRsZS1lbmRpYW4AAApCeXRlIE9yZGVyAAABAAAAAQAAAAAAAAAJRGF0YSBUeXBlEwCAAAAAAAEAhQDxy+2TKQAAAAIhQ0FOT3BlbiBBZGRvbiBDdXN0b20gRGV2aWNlLmx2bGliGUNBTk9wZW5fUERPIERhdGEgVHlwZS5jdGwAQUAWAAkCVTgDVTE2A1UzMgJJOANJMTYDSTMyBlNpbmdsZQZEb3VibGUHQm9vbGVhbgAJRGF0YSBUeXBlAAEAAAACAAAAAAAAAA5QYXJhbWV0ZXIgTmFtZRMAgAAAAAABABpAMP////8QQ0FOT3BlbiBQRE8gR1VJRAAAAQAAAAAABVIxXzMyAAAAAAAAAAxTY2FsZSBGYWN0b3ITAIAAAAAAAQATQAoADURlZmF1bHQgVmFsdWUAAQAAP/AAAAAAAAAAAAAAAAAADFNjYWxlIE9mZnNldBMAgAAAAAABABNACgANRGVmYXVsdCBWYWx1ZQABAAAAAAAAAAAAAAAAAAA=</Data>
+												</Variant>
+											</Property>
+										</Properties>
+										<Errors />
+										<DefaultValue>
+											<Elem>0</Elem>
+										</DefaultValue>
+									</Channel>
+								</Section>
+							</Section>
+							<Section Name="TPDOs" TypeGUID="058a6a92-3f0d-49e3-a3a0-9535fbe5a49e">
+								<Description />
+								<Properties />
+								<Errors />
+								<Section Name="PDO Channel: 1" TypeGUID="0e998ef5-190c-48b6-92bd-d5f6d14f96b8">
+									<Description />
+									<Properties>
+										<Property Name="user.CD.PDO Settings">
+											<Variant>
+												<Type>AAAACgAUQDD/////C2RhdGEgc3RyaW5n</Type>
+												<Data>AAAAFBMAgAAAAAABAAQAAAABAAAAAAAA</Data>
+											</Variant>
+										</Property>
+									</Properties>
+									<Errors />
+									<Channel Name="T1_32" TypeGUID="29165bcc-5b74-4ff4-a426-96512b74f616" RowDim="1" ColDim="1" Units="" BitFields="1">
+										<Description />
+										<Properties>
+											<Property Name="user.CD.PDO Parameter Settings">
+												<Variant>
+													<Type>AAAACgAUQDD/////C2RhdGEgc3RyaW5n</Type>
+													<Data>AAACXBMAgAAAAAABAAQAAAABAAAAAAAHAAAACkJpdCBPZmZzZXQTAIAAAAAAAQAFAAUAAAEAAAAAAAAAAAAAC0J5dGUgT2Zmc2V0EwCAAAAAAAEABQAFAAABAAAAAAAAAAAAAApCeXRlIE9yZGVyEwCAAAAAAAEAgADxAAAAAAAAAAIhQ0FOT3BlbiBBZGRvbiBDdXN0b20gRGV2aWNlLmx2bGliFkNBTm9wZW4gQnl0ZSBPcmRlci5jdGwAP0AWAAIYYmlnLWVuZGlhbiBuZXR3b3JrIG9yZGVyDWxpdHRsZS1lbmRpYW4AAApCeXRlIE9yZGVyAAABAAAAAQAAAAAAAAAJRGF0YSBUeXBlEwCAAAAAAAEAhQDxy+2TKQAAAAIhQ0FOT3BlbiBBZGRvbiBDdXN0b20gRGV2aWNlLmx2bGliGUNBTk9wZW5fUERPIERhdGEgVHlwZS5jdGwAQUAWAAkCVTgDVTE2A1UzMgJJOANJMTYDSTMyBlNpbmdsZQZEb3VibGUHQm9vbGVhbgAJRGF0YSBUeXBlAAEAAAACAAAAAAAAAA5QYXJhbWV0ZXIgTmFtZRMAgAAAAAABABpAMP////8QQ0FOT3BlbiBQRE8gR1VJRAAAAQAAAAAABVQxXzMyAAAAAAAAAAxTY2FsZSBGYWN0b3ITAIAAAAAAAQATQAoADURlZmF1bHQgVmFsdWUAAQAAP/AAAAAAAAAAAAAAAAAADFNjYWxlIE9mZnNldBMAgAAAAAABABNACgANRGVmYXVsdCBWYWx1ZQABAAAAAAAAAAAAAAAAAAA=</Data>
+												</Variant>
+											</Property>
+										</Properties>
+										<Errors />
+										<DefaultValue>
+											<Elem>0</Elem>
+										</DefaultValue>
+									</Channel>
+								</Section>
+							</Section>
+							<Section Name="NMTs" TypeGUID="E973F48E-341C-44BD-96D0-0955FA5D4E9C">
+								<Description />
+								<Properties>
+									<Property Name="user.CD.Prop_NMT Settings">
+										<Variant>
+											<Type>AAAACgAUQDD/////C2RhdGEgc3RyaW5n</Type>
+											<Data>AAAC1BMAgAAAAAABAAQAAAABAAAAAAAGAAAAGURlbGF5IGZvciBvcHAuIHN0YXRlIChtcykTAIAAAAAAAQAhQAoAGipEZWxheSBmb3Igb3BwLiBzdGF0ZSAobXMpAAABAABAj0AAAAAAAAAAAAAAAAAJRW1lcmdlbmN5EwCAAAAAAAEAEEAhCipFbWVyZ2VuY3kAAAEAAAAAAAAAAAAABUhCIE5HEwCAAAAAAAQAZQDxAAAAAAAAAAIhQ0FOT3BlbiBBZGRvbiBDdXN0b20gRGV2aWNlLmx2bGliHUNhbk9wZW5fTk1UX1N0YXRpYyBkZXRlY3QuY3RsAB1AFgADBE5vbmUCSEICTkcAAARNb2RlAAARQAYAC1VwZGF0ZSBUaW1lAHUA8QAAAAAAAAACIUNBTk9wZW4gQWRkb24gQ3VzdG9tIERldmljZS5sdmxpYh1DYW5PcGVuX05NVF9TdGF0aWMgZGV0ZWN0LmN0bAAtQBYAAwROb25lAkhCAk5HAAAVU3RhdGljIGRldGVjdCBpbiBOb25lAFkA8QAAAAAAAAACIUNBTk9wZW4gQWRkb24gQ3VzdG9tIERldmljZS5sdmxpYhZDYW5PcGVuX05NVF9Db25maWcuY3RsABhAUAADAAAAAQACBipIQiBORwAAAQADAAAAZAAAAAAAAAAAABpOb2RlIGluaXQgc3RhdGljIFNETyBzdGF0ZRMAgAAAAAABACFABgAbKk5vZGUgaW5pdCBzdGF0aWMgU0RPIHN0YXRlAAEAAACAAAAAAAAAAA5Ob2RlIHJ1biBzdGF0ZRMAgAAAAAABABVABgAPKk5vZGUgcnVuIHN0YXRlAAEAAAABAAAAAAAAABpTdG9wIGFuZCBSZXNldCBvbiBTaHV0ZG93bhMAgAAAAAABACBAIRsqU3RvcCBhbmQgUmVzZXQgb24gU2h1dGRvd24AAQAAAQAAAAA=</Data>
+										</Variant>
+									</Property>
+								</Properties>
+								<Errors />
+								<Channel Name="NMT command" TypeGUID="1344E165-397F-4945-9CF4-5D878AFF51A5" RowDim="1" ColDim="1" Units="" BitFields="3">
+									<Description>Send Network Management command to slave:
+0 - idle
+1 - start remote node
+2 - stop remote node
+3 - enter pre-operational
+4 - reset node
+5 - reset communication from node side
+6 - reinit communication from NI VS side
+</Description>
+									<Properties />
+									<Errors />
+									<DefaultValue>
+										<Elem>0</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="Device State" TypeGUID="B4588A11-20C8-4448-980C-55D7BC0F1605" RowDim="1" ColDim="1" Units="" BitFields="1">
+									<Description>Device State:
+1 - unknown
+0 - bootup
+4 - stopped
+5 - operational
+127 - preoperational
+128 - connection lost</Description>
+									<Properties />
+									<Errors />
+									<DefaultValue>
+										<Elem>-1</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="Timestamp" TypeGUID="B4588A11-20C8-4448-980C-55D7BC0F1605" RowDim="1" ColDim="1" Units="" BitFields="1">
+									<Description>Timestamp of last Heartbeat or Node Guarding state update</Description>
+									<Properties />
+									<Errors />
+									<DefaultValue>
+										<Elem>-1</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="Em Timestamp" TypeGUID="B4588A11-20C8-4448-980C-55D7BC0F1605" RowDim="1" ColDim="1" Units="" BitFields="1">
+									<Description>Emergency Timestamp</Description>
+									<Properties />
+									<Errors />
+									<DefaultValue>
+										<Elem>-1</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="Error Code" TypeGUID="B4588A11-20C8-4448-980C-55D7BC0F1605" RowDim="1" ColDim="1" Units="" BitFields="1">
+									<Description>Error Code</Description>
+									<Properties />
+									<Errors />
+									<DefaultValue>
+										<Elem>-1</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="Error Register" TypeGUID="B4588A11-20C8-4448-980C-55D7BC0F1605" RowDim="1" ColDim="1" Units="" BitFields="1">
+									<Description>Error Register</Description>
+									<Properties />
+									<Errors />
+									<DefaultValue>
+										<Elem>-1</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="Error Byte 01" TypeGUID="B4588A11-20C8-4448-980C-55D7BC0F1605" RowDim="1" ColDim="1" Units="" BitFields="1">
+									<Description>Error Byte 01</Description>
+									<Properties />
+									<Errors />
+									<DefaultValue>
+										<Elem>-1</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="Error Byte 02" TypeGUID="B4588A11-20C8-4448-980C-55D7BC0F1605" RowDim="1" ColDim="1" Units="" BitFields="1">
+									<Description>Error Byte 02</Description>
+									<Properties />
+									<Errors />
+									<DefaultValue>
+										<Elem>-1</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="Error Byte 03" TypeGUID="B4588A11-20C8-4448-980C-55D7BC0F1605" RowDim="1" ColDim="1" Units="" BitFields="1">
+									<Description>Error Byte 03</Description>
+									<Properties />
+									<Errors />
+									<DefaultValue>
+										<Elem>-1</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="Error Byte 04" TypeGUID="B4588A11-20C8-4448-980C-55D7BC0F1605" RowDim="1" ColDim="1" Units="" BitFields="1">
+									<Description>Error Byte 04</Description>
+									<Properties />
+									<Errors />
+									<DefaultValue>
+										<Elem>-1</Elem>
+									</DefaultValue>
+								</Channel>
+								<Channel Name="Error Byte 05" TypeGUID="B4588A11-20C8-4448-980C-55D7BC0F1605" RowDim="1" ColDim="1" Units="" BitFields="1">
+									<Description>Error Byte 05</Description>
+									<Properties />
+									<Errors />
+									<DefaultValue>
+										<Elem>-1</Elem>
+									</DefaultValue>
+								</Channel>
+							</Section>
+						</Section>
+					</Section>
+				</Section>
+				<Section Name="Simulation Models" TypeGUID="03D3B937-1485-13A6-5600F2871E269F9A">
+					<Description />
+					<Properties />
+					<Errors />
+					<Section Name="Models" TypeGUID="03D3B976-1485-13A6-5604255F981010CE">
+						<Description />
+						<Properties />
+						<Errors />
+					</Section>
+					<Section Name="Execution Order" TypeGUID="03D3B966-1485-13A6-569CFF8A449BF90A">
+						<Description />
+						<Properties />
+						<Errors />
+					</Section>
+				</Section>
+				<Section Name="User Channels" TypeGUID="03D3B6B7-1485-13A6-567BE1E1E0DF999A">
+					<Description />
+					<Properties />
+					<Errors />
+				</Section>
+				<Section Name="Calculated Channels" TypeGUID="03D3B714-1485-13A6-56031C5F1CCB78A9">
+					<Description />
+					<Properties />
+					<Errors />
+				</Section>
+				<Section Name="Stimulus" TypeGUID="03D3B7FF-1485-13A6-56B2328F9511AC8B">
+					<Description />
+					<Properties>
+						<Property Name="Max Steps">
+							<I32>128</I32>
+						</Property>
+						<Property Name="Max Gen Maps">
+							<I32>256</I32>
+						</Property>
+						<Property Name="Aux Buffer Size">
+							<I32>10000</I32>
+						</Property>
+						<Property Name="Analysis Buffer Size">
+							<I32>10000</I32>
+						</Property>
+						<Property Name="Analysis Result Size">
+							<I32>5000</I32>
+						</Property>
+					</Properties>
+					<Errors />
+				</Section>
+				<Section Name="Alarms" TypeGUID="03D3B782-1485-13A6-56F58B35B6CBA484">
+					<Description />
+					<Properties>
+						<Property Name="Alarm Rate">
+							<I32>1</I32>
+						</Property>
+					</Properties>
+					<Errors />
+				</Section>
+				<Section Name="Procedures" TypeGUID="03D3B7B1-1485-13A6-56649C7783203F22">
+					<Description />
+					<Properties />
+					<Errors />
+				</Section>
+				<Section Name="XNET Databases" TypeGUID="def5630b-577f-4ae9-9682-5f8ee445ee21">
+					<Description />
+					<Properties>
+						<Property Name="CD Status">
+							<U32>2</U32>
+						</Property>
+					</Properties>
+					<Errors />
+				</Section>
+				<Section Name="System Channels" TypeGUID="03D3B753-1485-13A6-56B10ED0820CF410">
+					<Description />
+					<Properties />
+					<Errors />
+					<Channel Name="Actual Loop Rate" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="Hz" BitFields="1">
+						<Description>The execution rate of the Primary Control Loop</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Command Index" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="3">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>-1</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Command Rate" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>The decimation of the Data Processing Loop</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Time" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="sec" BitFields="1">
+						<Description>The relative system time of the VeriStand Engine according to the iteration count and Delta T of the Primary Control Loop</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Alarm Rate" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="DAQ Error" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="Error Code" BitFields="3">
+						<Description>The last reported error code from a DAQmx function call. The value zero indicates no error has occurred.</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Delta T" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="sec" BitFields="1">
+						<Description>The period in seconds of the Primary Control Loop</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Compiler Error" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Stack Index 1" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>-1</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Stack Index 2" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>-1</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Stack Index 3" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>-1</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Resume Flag" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Stack Index 4" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>-1</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Stack Index 5" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>-1</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Stack Index 6" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>-1</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Tripped Low Alarm" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="ID" BitFields="1">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Tripped Medium Alarm" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="ID" BitFields="1">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Tripped High Alarm" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="ID" BitFields="1">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Tripped Low Value" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="EUs" BitFields="1">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Tripped Medium Value" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="EUs" BitFields="1">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Tripped High Value" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="EUs" BitFields="1">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="RT Engine Build" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>A value representing the build number of the NI VeriStand Engine</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="HP Loop Duration" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="nsec" BitFields="1">
+						<Description>The duration of the Primary Control Loop in nanoseconds</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="LP Loop Duration" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="nsec" BitFields="1">
+						<Description>The duration of the Data Processing Loop in nanoseconds</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Command" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="Enum" BitFields="3">
+						<Description>Internally commands the RT system with the following numeric values:
+
+0: None
+1: Restart System
+2: Reset System
+3: Shut Down System
+4: Reboot System</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Streamed Channel Count" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>The number of channels that the VeriStand Engine is currently streaming to the host</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Max Streamed Channels" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>The maximum number of channels that the VeriStand Engine can stream to the host</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Model Count" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>The number of times the models have not completed their execution in time</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Clients" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Maximum GENs" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>The number of stimulus profile generators instantiated by the system</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Generator Engine State" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="Enum" BitFields="3">
+						<Description>The current state of the stimulus profile generator engine
+
+0: Idle
+1: Running
+2: Stopped
+3: Paused</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Watchdog Timer" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="nsec" BitFields="1">
+						<Description>The amount of time in nanoseconds since the Watchdog Timer Loop last executed. The Watchdog Timer Loop is set to execute at a rate of 10Hz.</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="HS TCP Overflow Count" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>The number of times the streaming data gets overwritten.</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Host IP" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>The 32-bit integer IP Address of the connected host. A zero value indicates no host is connected to the VeriStand Engine.</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Trace Enabled Flag" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="3">
+						<Description>Specifies whether execution tracing is currently active on the RT Target.  Set to 1 to start tracing.  Set to 0 to stop tracing and send result to host (if no host is present it is logged to disk).  Set to -1 to stop tracing and write result to disk.</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Detailed Tracing Flag" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="3">
+						<Description>Specifies whether detailed execution tracing is enabled on the RT Target.</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>1</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="VI Tracing Flag" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="3">
+						<Description>Specifies whether VI execution tracing is enabled on the RT Target.</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>1</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Trace Buffer Size" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="Bytes" BitFields="3">
+						<Description>Specifies the size in bytes of the execution trace buffer on the RT Target.</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>250000</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Thread Tracing Flag" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="3">
+						<Description>Specifies whether thread execution tracing is enabled on the RT Target.</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>1</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Absolute Time" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="sec" BitFields="1">
+						<Description>Returns the current date and time in seconds relative to 12:00 a.m., Friday, January 1, 1904, Universal Time [01-01-1904 00:00:00]. This value is coerced from a 128-bit value to double precision, which may impact resolution.</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Time - Microseconds" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="usec" BitFields="1">
+						<Description>The relative system time in microseconds of the VeriStand Engine according to the iteration count and Delta T of the Primary Control Loop</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 41" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 42" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 43" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 44" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="PC Timing - Iterations" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="PC Timing - Min Wait" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="PC Timing - Actual Wait" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Failure Count" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>The failure count of current analysis settings</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Analysis State" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>The state of the analysis sub-system on the RT execution host</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="TCP Data Packet Loss" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>The number of times the VeriStand Engine fails to send a data packet to the host. A non-zero number can indicate data loss in logged data. The value is reset every time a Workspace connects to the VeriStand Engine.</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="WPL Overflow Count" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>The number of times the waveform processing loop attempted to write to a waveform read session within the NI VeriStand engine and timed out.</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="WPL TCP Overflow Count" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>The number of times the waveform processing loop attempted to write to the TCP loop (for a host waveform stream session) and timed out.</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="WPL Error Count" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>The number of times the waveform processing loop encountered an error.</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="WPL Error Code" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>The last error code encountered by the waveform processing loop.</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Streamed Waveform Count" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>The number of waveforms that the VeriStand Engine is currently streaming to the host</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 56" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 57" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 58" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 59" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 60" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 61" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 62" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 63" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 64" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 65" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 66" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 67" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 68" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 69" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 70" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 71" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 72" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 73" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 74" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 75" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 76" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 77" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 78" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 79" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 80" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 81" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 82" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 83" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 84" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 85" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 86" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 87" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 88" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 89" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 90" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="System Reserved 91" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="AO1 Error" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="HP Loop Wakeup Status" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="Enum" BitFields="1">
+						<Description>The wakeup status of the Primary Control Loop.
+
+0: Normal
+1: Aborted
+2: Asynchronous wakeup
+3: Timing source error
+4: Timed loop error
+5: Timeout</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="HD Free Space" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="0">
+						<Description>Deprecated</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="HP-LP Overwrite" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>The number of times the Primary Control Loop timed out writing channel data to the Data Processing Loop</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="LP Data Count" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>The number of times the Data Processing Loop timed out writing channel data to the Communication Send Loop</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="HP Count" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>The number of times the Primary Control Loop reported being late</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="LP Count" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>The number of times the Data Processing Loop reported being late</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+					<Channel Name="Log Status" TypeGUID="03D3B762-1485-13A6-56F0D6D728909E23" RowDim="1" ColDim="1" Units="" BitFields="1">
+						<Description>The state of the logging sub-system on the RT execution host</Description>
+						<Properties />
+						<Errors />
+						<DefaultValue>
+							<Elem>0</Elem>
+						</DefaultValue>
+					</Channel>
+				</Section>
+			</Target>
+		</TargetSections>
+		<Section Name="Aliases" TypeGUID="e11f4519-09e6-4fb0-99df-2967c4313d67">
+			<Description />
+			<Properties />
+			<Errors />
+		</Section>
+		<Section Name="Scales" TypeGUID="032c8aec-ce5b-6d40-06c5-5703bbc7ccee">
+			<Description />
+			<Properties />
+			<Errors />
+		</Section>
+		<Section Name="System Mappings" TypeGUID="5691ea13-4544-497e-9bda-cf69dc707663">
+			<Description />
+			<Properties />
+			<Errors />
+		</Section>
+		<Section Name="Data Sharing Network" TypeGUID="8288dbb9-8c87-4fda-9c66-acec90c46c03">
+			<Description />
+			<Properties>
+				<Property Name="CD Status">
+					<U32>2</U32>
+				</Property>
+				<Property Name="DSN Dynamic Data Size">
+					<I32>30</I32>
+				</Property>
+			</Properties>
+			<Errors />
+		</Section>
+		<Section Name="System Initialization" TypeGUID="773b9311-3758-47fa-842f-b1c1960dabd0">
+			<Description />
+			<Properties>
+				<Property Name="Auto Start">
+					<Boolean>false</Boolean>
+				</Property>
+			</Properties>
+			<Errors />
+		</Section>
+	</Root>
+</Document>
