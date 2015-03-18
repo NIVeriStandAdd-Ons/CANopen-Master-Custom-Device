@@ -323,7 +323,7 @@
 				<Property Name="Destination[1].path" Type="Path">/C/NI Projects/CANopen/github/CANopen-Master-Custom-Device/Built/CANOpen Addon/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{F5DA056B-CB8D-45F0-8DFF-FA39458E3518}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{6266CFA2-2E35-4CD8-8038-5AD99557CABD}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Custom Device CANOpen Addon.xml</Property>
