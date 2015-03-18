@@ -283,17 +283,17 @@
 				<Property Name="Bld_excludedDirectory[3].pathType" Type="Str">relativeToAppDir</Property>
 				<Property Name="Bld_excludedDirectory[4]" Type="Path">/C/Users/Blueuser/Documents/LabVIEW Data/InstCache</Property>
 				<Property Name="Bld_excludedDirectoryCount" Type="Int">5</Property>
-				<Property Name="Bld_localDestDir" Type="Path">/C/Users/Public/Documents/National Instruments/NI VeriStand 2013/Custom Devices/CANOpen Addon</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/Temp/CANOpen Addon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{31F9D5A7-B810-431A-A0DB-5DD38B967FEA}</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
-				<Property Name="Destination[0].path" Type="Path">/C/Users/Public/Documents/National Instruments/NI VeriStand 2013/Custom Devices/CANOpen Addon</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/Temp/CANOpen Addon</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">/C/Users/Public/Documents/National Instruments/NI VeriStand 2013/Custom Devices/CANOpen Addon/data</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/Temp/CANOpen Addon/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{6B7FF953-CE3B-4F1E-8DEB-A6A308D44F66}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{17C29480-6A69-43E8-9BD7-AE01508170C5}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Custom Device CANOpen Addon.xml</Property>
@@ -313,17 +313,17 @@
 				<Property Name="Bld_excludedDirectory[3].pathType" Type="Str">relativeToAppDir</Property>
 				<Property Name="Bld_excludedDirectory[4]" Type="Path">/C/Users/Blueuser/Documents/LabVIEW Data/InstCache</Property>
 				<Property Name="Bld_excludedDirectoryCount" Type="Int">5</Property>
-				<Property Name="Bld_localDestDir" Type="Path">/C/Users/Public/Documents/National Instruments/NI VeriStand 2013/Custom Devices/CANOpen Addon</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/Temp/CANOpen Addon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{0D991CCA-9CA5-4B69-80FB-F5BDF20D0766}</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
-				<Property Name="Destination[0].path" Type="Path">/C/Users/Public/Documents/National Instruments/NI VeriStand 2013/Custom Devices/CANOpen Addon</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/Temp/CANOpen Addon</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">/C/Users/Public/Documents/National Instruments/NI VeriStand 2013/Custom Devices/CANOpen Addon/data</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/Temp/CANOpen Addon/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{6B7FF953-CE3B-4F1E-8DEB-A6A308D44F66}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{17C29480-6A69-43E8-9BD7-AE01508170C5}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Custom Device CANOpen Addon.xml</Property>
@@ -337,50 +337,45 @@
 				<Property Name="Bld_buildSpecName" Type="Str">Configuration</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">/C/Users/Public/Documents/National Instruments/NI VeriStand 2013/Custom Devices/CANOpen Addon</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/Temp/CANOpen Addon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{061E3B2A-D44E-4339-9386-A3FF6CC55EDB}</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
-				<Property Name="Destination[0].path" Type="Path">/C/Users/Public/Documents/National Instruments/NI VeriStand 2013/Custom Devices/CANOpen Addon</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/Temp/CANOpen Addon</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">/C/Users/Public/Documents/National Instruments/NI VeriStand 2013/Custom Devices/CANOpen Addon/Data</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/Temp/CANOpen Addon/Data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[2].destName" Type="Str">CANOpen Addon Configuration LLB</Property>
-				<Property Name="Destination[2].path" Type="Path">/C/Users/Public/Documents/National Instruments/NI VeriStand 2013/Custom Devices/CANOpen Addon/CANOpen Addon Configuration.llb</Property>
+				<Property Name="Destination[2].path" Type="Path">/C/Temp/CANOpen Addon/CANOpen Addon Configuration.llb</Property>
 				<Property Name="Destination[2].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[2].type" Type="Str">LLB</Property>
 				<Property Name="DestinationCount" Type="Int">3</Property>
 				<Property Name="Source[0].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[0].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{6B7FF953-CE3B-4F1E-8DEB-A6A308D44F66}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{17C29480-6A69-43E8-9BD7-AE01508170C5}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Custom Device CANOpen Addon.xml</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[10].Container.applyDestination" Type="Bool">true</Property>
+				<Property Name="Source[10].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[10].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[10].itemID" Type="Ref">/My Computer/CANOpen Addon Custom Device.lvlib</Property>
-				<Property Name="Source[10].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[10].itemID" Type="Ref">/My Computer/CANOpen Addon Custom Device.lvlib/SubVIs</Property>
 				<Property Name="Source[10].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[10].type" Type="Str">Library</Property>
+				<Property Name="Source[10].type" Type="Str">Container</Property>
 				<Property Name="Source[11].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[11].Container.applyInclusion" Type="Bool">true</Property>
 				<Property Name="Source[11].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[11].itemID" Type="Ref">/My Computer/CANOpen Addon Custom Device.lvlib/SubVIs</Property>
+				<Property Name="Source[11].itemID" Type="Ref">/My Computer/CANOpen Addon Custom Device.lvlib/System Explorer</Property>
 				<Property Name="Source[11].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[11].type" Type="Str">Container</Property>
-				<Property Name="Source[12].Container.applyDestination" Type="Bool">true</Property>
-				<Property Name="Source[12].Container.applyInclusion" Type="Bool">true</Property>
-				<Property Name="Source[12].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[12].itemID" Type="Ref">/My Computer/CANOpen Addon Custom Device.lvlib/System Explorer</Property>
-				<Property Name="Source[12].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[12].type" Type="Str">Container</Property>
+				<Property Name="Source[12].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[12].itemID" Type="Ref">/My Computer/CANOpen Addon Custom Device.lvlib/SubVIs/CANOpen Addon GUID Lookup Global.vi</Property>
+				<Property Name="Source[12].type" Type="Str">VI</Property>
 				<Property Name="Source[13].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[13].itemID" Type="Ref">/My Computer/CANOpen Addon Custom Device.lvlib/SubVIs/CANOpen Addon GUID Lookup Global.vi</Property>
-				<Property Name="Source[13].type" Type="Str">VI</Property>
-				<Property Name="Source[14].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[14].itemID" Type="Ref">/My Computer/CANOpen Addon.chm</Property>
-				<Property Name="Source[14].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[13].itemID" Type="Ref">/My Computer/CANOpen Addon.chm</Property>
+				<Property Name="Source[13].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].destinationIndex" Type="Int">2</Property>
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/CANOpen Addon Custom Device.lvlib/System Explorer/Actions/CANOpen Addon Initialization VI.vi</Property>
 				<Property Name="Source[2].type" Type="Str">VI</Property>
@@ -397,38 +392,40 @@
 				<Property Name="Source[6].itemID" Type="Ref">/My Computer/CANOpen Addon Custom Device.lvlib/System Explorer/Pages/CANOpen RPDOs.vi</Property>
 				<Property Name="Source[6].type" Type="Str">VI</Property>
 				<Property Name="Source[7].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[7].itemID" Type="Ref"></Property>
+				<Property Name="Source[7].itemID" Type="Ref">/My Computer/CANOpen Addon Custom Device.lvlib/System Explorer/Pages/CANOpen SDOs.vi</Property>
 				<Property Name="Source[7].type" Type="Str">VI</Property>
 				<Property Name="Source[8].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[8].itemID" Type="Ref">/My Computer/CANOpen Addon Custom Device.lvlib/System Explorer/Pages/CANOpen SDOs.vi</Property>
+				<Property Name="Source[8].itemID" Type="Ref">/My Computer/CANOpen Addon Custom Device.lvlib/System Explorer/Pages/CANOpen TPDOs.vi</Property>
 				<Property Name="Source[8].type" Type="Str">VI</Property>
 				<Property Name="Source[9].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[9].itemID" Type="Ref">/My Computer/CANOpen Addon Custom Device.lvlib/System Explorer/Pages/CANOpen TPDOs.vi</Property>
-				<Property Name="Source[9].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">15</Property>
+				<Property Name="Source[9].itemID" Type="Ref">/My Computer/CANOpen Addon Custom Device.lvlib</Property>
+				<Property Name="Source[9].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[9].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[9].type" Type="Str">Library</Property>
+				<Property Name="SourceCount" Type="Int">14</Property>
 			</Item>
 			<Item Name="Engine" Type="Source Distribution">
 				<Property Name="Bld_buildCacheID" Type="Str">{4026CAA6-A777-426A-80EE-514261EAE04D}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">Engine</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">/C/Users/Public/Documents/National Instruments/NI VeriStand 2013/Custom Devices/CANOpen Addon</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/Temp/CANOpen Addon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{C4FA4579-FF7C-49EA-B3B0-7601181950CB}</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
-				<Property Name="Destination[0].path" Type="Path">/C/Users/Public/Documents/National Instruments/NI VeriStand 2013/Custom Devices/CANOpen Addon</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/Temp/CANOpen Addon</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">/C/Users/Public/Documents/National Instruments/NI VeriStand 2013/Custom Devices/CANOpen Addon/Data</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/Temp/CANOpen Addon/Data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[2].destName" Type="Str">CANOpen Addon Engine LLB</Property>
-				<Property Name="Destination[2].path" Type="Path">/C/Users/Public/Documents/National Instruments/NI VeriStand 2013/Custom Devices/CANOpen Addon/CANOpen Addon Engine.llb</Property>
+				<Property Name="Destination[2].path" Type="Path">/C/Temp/CANOpen Addon/CANOpen Addon Engine.llb</Property>
 				<Property Name="Destination[2].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[2].type" Type="Str">LLB</Property>
 				<Property Name="DestinationCount" Type="Int">3</Property>
 				<Property Name="Source[0].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[0].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{6B7FF953-CE3B-4F1E-8DEB-A6A308D44F66}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{17C29480-6A69-43E8-9BD7-AE01508170C5}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">2</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/CANOpen Addon Custom Device.lvlib/Driver/CANOpen Addon RT Driver VI.vi</Property>
@@ -1333,10 +1330,10 @@ AddOutputFilter chunkFilter
 				<Property Name="Bld_buildSpecName" Type="Str">Engine</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">/C/Users/Public/Documents/National Instruments/NI VeriStand 2013/Custom Devices/CANOpen Addon</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/Temp/CANOpen Addon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{A6E10786-478E-4C45-957F-D91550B5EA4B}</Property>
 				<Property Name="Bld_targetDestDir" Type="Path">/c/CANOpen Addon Engine VxWorks.llb</Property>
-				<Property Name="Bld_version.build" Type="Int">17</Property>
+				<Property Name="Bld_version.build" Type="Int">18</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">/c/CANOpen Addon Engine VxWorks.llb</Property>
@@ -1346,7 +1343,7 @@ AddOutputFilter chunkFilter
 				<Property Name="Destination[1].path" Type="Path">/c/ni-rt/data</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{3AA5E1CA-ADB2-473A-A7BC-17738FC5DACA}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{635D7ECE-7A7C-4BD3-80DA-FA4E209871C6}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/Jiri-cRIO9024/CANOpen Addon Custom Device.lvlib/Driver/CANOpen Addon RT Driver VI.vi</Property>
