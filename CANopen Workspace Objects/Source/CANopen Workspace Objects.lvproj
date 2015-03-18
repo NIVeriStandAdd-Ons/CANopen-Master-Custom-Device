@@ -102,22 +102,24 @@
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeTypedefs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../Built/Display Templates</Property>
-				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/C/NI Projects/CANopen/github/CANopen-Master-Custom-Device/Built/Display Templates</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{1115E750-B70B-4BB7-BBC8-A92461D73449}</Property>
 				<Property Name="Bld_version.build" Type="Int">24</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
-				<Property Name="Destination[0].path" Type="Path">../Built/Display Templates</Property>
+				<Property Name="Destination[0].path" Type="Path">/C/NI Projects/CANopen/github/CANopen-Master-Custom-Device/Built/Display Templates</Property>
+				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../Built/Display Templates/data</Property>
+				<Property Name="Destination[1].path" Type="Path">/C/NI Projects/CANopen/github/CANopen-Master-Custom-Device/Built/Display Templates/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[2].destName" Type="Str">Ring Support LLB</Property>
-				<Property Name="Destination[2].path" Type="Path">../Built/Display Templates/CANopen Ring Support LLB.llb</Property>
+				<Property Name="Destination[2].path" Type="Path">/C/NI Projects/CANopen/github/CANopen-Master-Custom-Device/Built/Display Templates/CANopen Ring Support LLB.llb</Property>
+				<Property Name="Destination[2].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[2].type" Type="Str">LLB</Property>
 				<Property Name="DestinationCount" Type="Int">3</Property>
 				<Property Name="Source[0].Container.applyDestination" Type="Bool">true</Property>
 				<Property Name="Source[0].destinationIndex" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{8DD25983-08C2-4AE9-BC0A-3D59B5F2967F}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{C2FE58D2-A562-49F2-BA3E-DB2286AED9E6}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">2</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/CANopen Workspace Objects.lvlib</Property>
